@@ -1,39 +1,41 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: 平城裕隆
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: 博士課程1年
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: 東京大学大学院 学際情報学府
+    url: http://www.iii.u-tokyo.ac.jp/
+  - name: 暦本研究室
+    url: https://lab.rekimoto.org/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
+  - ヒューマンコンピューターインタラクション
   - Computational Linguistics
   - Information Retrieval
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: 学際情報学府 学際情報学専攻 総合分析情報学府コース 博士課程
+      institution: 東京大学
+      year: 2022 - 
+    - course: 学際情報学府 学際情報学専攻 総合分析情報学府コース 修士課程
+      institution: 東京大学
+      year: 2022
+    - course: 工学部電子情報工学科
+      institution: 東京大学
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -45,16 +47,19 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/h1raki
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.co.jp/citations?user=jPmQ91UAAAAJ&hl=ja&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/hirotakahiraki
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: http://linkedin.com/in/hirotakahiraki
+  - icon: facebook
+    icon_pack: fab
+    link: https://www.facebook.com/h1raki
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -70,8 +75,5 @@ email: ''
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+情報技術を用いて人間とコンピューターの間を介在することで、人の能力や生活をゆたかに拡張することに興味を持っています。
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
