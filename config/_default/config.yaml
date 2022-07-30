@@ -5,7 +5,6 @@
 
 title: Academic # Website name
 baseURL: 'https://hirotakahiraki.github.io/' # Website URL
-contentDir: "./content"
 ############################
 ## LANGUAGE
 ############################
