@@ -16,4 +16,4 @@
 5. open this repository in github and setting Build and deployment github pages from settings/pages/
   ![build and deployment](./readme2.png)
   then, set github action file in .github/workflows/
-    see this commit: ![9fec3a9](https://github.com/hirotakahiraki/hirotakahiraki.github.io/commit/9fec3a9ecfb640bb3c659882e29019609f302364)
+    see this commit: [9fec3a9](https://github.com/hirotakahiraki/hirotakahiraki.github.io/commit/9fec3a9ecfb640bb3c659882e29019609f302364)
