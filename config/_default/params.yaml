@@ -41,14 +41,14 @@ header:
 
 # Site footer
 
-# footer:
-  # copyright:
-  #   notice: '© {year} Me. This work is licensed under {license}'
-    # license:
-    #   enable: true
-    #   allow_derivatives: false
-    #   share_alike: true
-    #   allow_commercial: false
+footer:
+  copyright:
+    notice: '© Hirotaka Hiraki, {year}.'
+    license:
+      enable: false
+      allow_derivatives: false
+      share_alike: false
+      allow_commercial: false
 
 # Localization
 
