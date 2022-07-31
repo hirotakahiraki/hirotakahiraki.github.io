@@ -21,6 +21,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Interests to show in About widget
 interests:
   - ヒューマンコンピューターインタラクション
+  - ユーザーインターフェース
   - ウェアラブルデバイス
   - 音声入力 
 
