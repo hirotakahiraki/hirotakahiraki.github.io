@@ -23,13 +23,13 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title:  リサーチアシスタント
-    company: 産業総合技術研究所
+    company: 産業技術総合研究所
     company_url: https://unit.aist.go.jp/harc/update.html
     company_logo: aist
     location: 千葉
     date_start: '2021-04-01'
     # date_end: 'current'
-    description: 産業総合技術研究所人間拡張センター リサーチアシスタント
+    description: 産業技術総合研究所人間拡張センター リサーチアシスタント
 
   - title: クリエイター
     company: 2021年度 IPA 未踏人材発掘・育成事業
