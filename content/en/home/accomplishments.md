@@ -1,4 +1,7 @@
 ---
+# display false
+active: false
+
 # An instance of the Accomplishments widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: accomplishments

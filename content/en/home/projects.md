@@ -7,7 +7,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 30
 
 title: Projects
 subtitle: ''
@@ -29,8 +29,10 @@ content:
       tag: '*'
     - name: Deep Learning
       tag: Deep Learning
+    - name: Wearable Devices
+      tag: Wearable Devices
     - name: Other
-      tag: Demo
+      tag: Projects
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -41,7 +43,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 2
+  view: 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
