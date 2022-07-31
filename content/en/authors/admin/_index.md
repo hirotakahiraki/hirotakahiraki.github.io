@@ -49,12 +49,6 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/h1raki
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.jp/citations?user=jPmQ91UAAAAJ&hl=ja&oi=ao
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/hirotakahiraki
   - icon: linkedin
     icon_pack: fab
     link: http://linkedin.com/in/hirotakahiraki
