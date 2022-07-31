@@ -17,7 +17,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Human-Computer Interaction(HCI), Machine Learning, speech.
 
 # Interests to show in About widget
 interests:
@@ -28,7 +28,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Applied Computer Science
+    - course: PhD course in Applied Computer Science
       institution: The University of Tokyo
       year: 2022 - current
     - course: MEng in Applied Computer Science
