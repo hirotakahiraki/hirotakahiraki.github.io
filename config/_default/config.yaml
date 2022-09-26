@@ -25,12 +25,6 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
 ############################
-## Google Analytics
-############################
-
-googleAnalytics = "G-G58LL6VGST"
-
-############################
 ## ADVANCED
 ############################
 
