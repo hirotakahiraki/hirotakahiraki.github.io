@@ -17,3 +17,7 @@
   ![build and deployment](./readme2.png)
   then, set github action file in .github/workflows/
     see this commit: [9fec3a9](https://github.com/hirotakahiraki/hirotakahiraki.github.io/commit/9fec3a9ecfb640bb3c659882e29019609f302364)
+
+6. Google Analytics 4:
+  open config/_default/params.yaml
+  google_tag_manager: 'G-XXXXXXXXXX'
