@@ -73,5 +73,5 @@ highlight_name: true
 情報技術を用いて人間とコンピューターの間を介在することで、人の能力や生活をゆたかに拡張することに興味を持っています。
 特に、ウェアラブルなデバイスや新たなインタフェースによって演算処理を利用できる領域を拡大し、人の計算可能性を高めていきたいと思っています。
 
-[grid_moduales] ( {{< ref "/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf" >}})
+[grid_moduales] ( {{< ref "https://hirotakahiraki.github.io/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf" >}})
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
