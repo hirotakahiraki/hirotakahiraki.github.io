@@ -33,11 +33,11 @@ url_video: ''
 # slides: examples
 ---
 
-As face masks have become daily accessories since the COVID-19 pandemic, it is reasonable to utilize a mask as a wearable interface. Unlike conventional speech recognition, we envision that silent speech interaction allows users to access digital services even in crowded public spaces.
+COVID-19のパンデミック以降、フェイスマスクが日常的なアクセサリーとなったように、マスクがウェアラブルなインターフェースとして活用され始めている。従来の音声認識とは異なり、声を出さずに音声対話をすることにより、混雑した公共空間でもデジタルなデバイスを利用できることを想定しています。
 
-We present E-MASK, a mask-shaped interface for silent speech interaction. With flexible and highly sensitive strain sensors, E-MASK presents a new measurement principle for silent speech interactions. We built a dataset of sensor patterns corresponding to 21 fundamental commands of Alexa’s operation. Estimation accuracies of 84.4% while sitting on a chair and 79.1% while walking on a treadmill were archived. 
+本研究では、マスク型の音声対話インターフェース「E-MASK」を提案します。E-MASKは、柔軟で高感度な歪みセンサを用い、無音音声対話のための新しい測定原理を提案します。Alexaの21の基本コマンドに対応するセンサパターンのデータセットを構築しました。椅子に座った状態での推定精度は84.4%、トレッドミルで歩行した状態での推定精度は79.1%となりました。
 
-This result suggests that our system provides seamless interaction with digital devices in various situations in daily life, such as walking in a crowd.79.1%, and to classify 6 types of facial expressions and actions with an accuracy of 84.7%.
+また、6種類の表情や動作を84.7%の精度で分類することができ、人混みでの歩行中など、日常生活のさまざまな場面でデジタル機器とのシームレスなインタラクションを提供することが期待できます。
 
 <br>
 <br>
