@@ -4,7 +4,7 @@ summary: E-MASK: A Mask-Shaped Interface for Silent Speech Interaction with Flex
 tags:
   - Deep Learning
   - Wearable Devices
-date: '2021-02-28T00:00:00Z'
+date: '2022-04-18T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
