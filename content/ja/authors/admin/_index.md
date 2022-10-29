@@ -74,5 +74,5 @@ highlight_name: true
 特に、ウェアラブルなデバイスや新たなインタフェースによって演算処理を利用できる領域を拡大し、人の計算可能性を高めていきたいと思っています。
 
 <!-- [grid_moduales] ( {{< ref "https://hirotakahiraki.github.io/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf" >}}) -->
-[link](/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf)
+[link](assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf)
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
