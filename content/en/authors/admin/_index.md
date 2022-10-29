@@ -72,4 +72,4 @@ highlight_name: true
 
 I’m a Researcher, Software Engineer, Juggler, and Doctor Course Student at The University of Tokyo, Rekimoto Laboratory. My research topic is Human-Computer Interaction (HCI) and focuses on extending humans’ ability through wearable devices. I’m particularly interested in vocal communication and want to create new interactions by extending the range of devices that computers can be handled daily.
 
-Download [CV](assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf)
+Download [CV](assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf)(last update: Oct 2022)
