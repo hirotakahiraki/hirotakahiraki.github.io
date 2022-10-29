@@ -12,7 +12,7 @@ external_link: ''
 links:
   - icon: pager
     icon_pack: fa
-    name: 論文
+    name: Paper
     url: https://doi.org/10.1145/3519391.3519399
 
   - icon: paper

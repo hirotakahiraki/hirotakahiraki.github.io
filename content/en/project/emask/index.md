@@ -43,4 +43,4 @@ This result suggests that our system provides seamless interaction with digital 
 <br>
 <br>
 <!-- {{< youtube -DRu5PSCALI >}} -->
-{{<twitter https://twitter.com/shiropen2/status/1519454570581090304?s=20&t=sGdHH_4uWLSVWcbp64IZXg >}}
+{{<https://twitter.com/shiropen2/status/1519454570581090304?s=20&t=sGdHH_4uWLSVWcbp64IZXg >}}
