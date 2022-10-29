@@ -18,7 +18,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: ヒューマンコンピューターインタラクション(HCI)を中心に、ウェアラブルデバイスや音声対話を行うインタフェースの研究をしています。
 
-CV: {{< cv "assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf" >}}
 # Interests to show in About widget
 interests:
   - ヒューマンコンピューターインタラクション
@@ -73,4 +72,6 @@ highlight_name: true
 
 情報技術を用いて人間とコンピューターの間を介在することで、人の能力や生活をゆたかに拡張することに興味を持っています。
 特に、ウェアラブルなデバイスや新たなインタフェースによって演算処理を利用できる領域を拡大し、人の計算可能性を高めていきたいと思っています。
+
+CV: {{< cv "assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf" >}}
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
