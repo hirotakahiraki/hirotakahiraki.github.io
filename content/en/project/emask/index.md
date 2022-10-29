@@ -24,7 +24,7 @@ links:
 url_code: ''
 url_pdf: ''
 url_slides: ''
-url_video: ''
+url_video: 'https://twitter.com/shiropen2/status/1519454570581090304?s=20&t=sGdHH_4uWLSVWcbp64IZXg'
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -43,4 +43,4 @@ This result suggests that our system provides seamless interaction with digital 
 <br>
 <br>
 <!-- {{< youtube -DRu5PSCALI >}} -->
-{{https://twitter.com/shiropen2/status/1519454570581090304?s=20&t=sGdHH_4uWLSVWcbp64IZXg}}
+{{<twitter https://twitter.com/shiropen2/status/1519454570581090304?s=20&t=sGdHH_4uWLSVWcbp64IZXg >}}
