@@ -12,7 +12,7 @@ external_link: ''
 links:
   - icon: pager
     icon_pack: fa
-    name: 論文
+    name: Paper
     url: https://dl.acm.org/doi/10.1145/3458709.3458985
   
   - icon: youtube

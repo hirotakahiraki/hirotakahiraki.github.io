@@ -17,7 +17,7 @@ image:
 links:
   - icon: pager
     icon_pack: fa
-    name: 論文
+    name: Paper
     url: https://www.ipa.go.jp/jinzai/mitou/2021/seika.html
   - icon: youtube
     icon_pack: fab
