@@ -15,7 +15,7 @@ links:
     name: Paper
     url: https://doi.org/10.1145/3519391.3519399
   
-  - icon: media
+  - icon: browser
     icon_pack: fab
     name: media
     url: https://www.itmedia.co.jp/news/articles/2204/28/news063.html
