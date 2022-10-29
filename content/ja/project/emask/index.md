@@ -12,12 +12,12 @@ external_link: ''
 links:
   - icon: pager
     icon_pack: fa
-    name: paper
+    name: Paper
     url: https://doi.org/10.1145/3519391.3519399
   
   - icon: paper
       icon_pack: fa
-      name: media
+      name: Web Media
       url: https://www.itmedia.co.jp/news/articles/2204/28/news063.html
 
 url_code: ''

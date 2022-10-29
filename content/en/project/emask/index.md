@@ -17,7 +17,7 @@ links:
   
   - icon: paper
     icon_pack: fa
-    name: media
+    name: Web Media
     url: https://www.itmedia.co.jp/news/articles/2204/28/news063.html
 
 
