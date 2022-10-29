@@ -1,6 +1,6 @@
 ---
 title: E-Mask
-summary: E-MASK: A Mask-Shaped Interface for Silent Speech Interaction with Flexible Strain Sensors
+summary: "E-MASK: A Mask-Shaped Interface for Silent Speech Interaction with Flexible Strain Sensors"
 tags:
   - Deep Learning
   - Wearable Devices
@@ -15,10 +15,10 @@ links:
     name: Paper
     url: https://doi.org/10.1145/3519391.3519399
   
-  # - icon: media
-  #   icon_pack: fab
-  #   name: media
-  #   url: https://www.itmedia.co.jp/news/articles/2204/28/news063.html
+  - icon: media
+    icon_pack: fab
+    name: media
+    url: https://www.itmedia.co.jp/news/articles/2204/28/news063.html
 
 
 url_code: ''
