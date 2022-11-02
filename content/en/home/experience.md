@@ -50,5 +50,5 @@ experience:
     description: Backend Engineer and Web Writer
 
 design:
-  columns: '2'
+  columns: '1'
 ---
