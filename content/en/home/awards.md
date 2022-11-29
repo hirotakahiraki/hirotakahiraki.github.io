@@ -52,6 +52,6 @@ design:
 1. The Univerisity of Tokyo, GSII, Major Award, Best Master's Thesis, <span style="color: gray;">*2022*</span>
 2. Information-technology Promotion Agency (IPA) MITOU Program, <span style="color: gray;">*2021*</span>
 3. The Univerisity of Tokyo PhD Fellowship, <span style="color: gray;">*2021*</span>
-4. Best Presentation Award at Silent Speech Recogniiton Workshop (Domectic Workshop), <span style="color: gray;">*2021*</span>
-5. Best Presentation Award at Environmental Art Society (Domectic Conference), <span style="color: gray;">*2021*</span>
+4. Best Presentation Award at Silent Speech Recogniiton Workshop (Domestic Workshop), <span style="color: gray;">*2021*</span>
+5. Best Presentation Award at Environmental Art Society (Domestic Conference), <span style="color: gray;">*2021*</span>
 6. The University of Tokyo Hongo Tech Garage Spring Founder Program, <span style="color: gray;">*2021*</span>
