@@ -52,7 +52,7 @@ design:
 1. 東京大学学際情報学府 専攻長賞 <span style="color: gray;">*2022*</span>
 2. グッドデザインニューホープ賞 <span style="color: gray;">*2022*</span>
 3. JID Next Age賞 <span style="color: gray;">*2022*</span>
-4. WISS2022 対話発表賞 <span style="color: gray;">*2021*</span>
+4. WISS2022 対話発表賞 <span style="color: gray;">*2022*</span>
 5. IPA未踏IT人材発掘・育成事業, <span style="color: gray;">*2021*</span>
 6. 東京大学知能社会国際卓越大学院プログラム, <span style="color: gray;">*2021*</span>
 7. 第8回サイレント音声認識ワークショップ学生奨励賞, <span style="color: gray;">*2021*</span>

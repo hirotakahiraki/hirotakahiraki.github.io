@@ -52,7 +52,7 @@ design:
 1. The Univerisity of Tokyo, GSII, Major Award, Best Master's Thesis, <span style="color: gray;">*2022*</span>
 2. Good Design New Hope Award, Honorable mention<span style="color: gray;">*2022*</span>
 3. Japan Industry Designer's Association Next Age Award, <span style="color: gray;">*2022*</span>
-4. Demo Award at Workshop on Interactive Systems and Software (Domestic Conference), <span style="color: gray;">*2021*</span>
+4. Demo Award at Workshop on Interactive Systems and Software (Domestic Conference), <span style="color: gray;">*2022*</span>
 5. Information-technology Promotion Agency (IPA) MITOU Program, <span style="color: gray;">*2021*</span>
 6. The Univerisity of Tokyo PhD Fellowship, <span style="color: gray;">*2021*</span>
 7. Best Presentation Award at Silent Speech Recogniiton Workshop (Domestic Workshop), <span style="color: gray;">*2021*</span>
