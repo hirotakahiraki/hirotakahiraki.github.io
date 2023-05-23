@@ -44,4 +44,4 @@ We proposed WhisperMask, a wearable electret condenser microphone designed to ef
 
 <br>
 <br>
-{{< youtube -N0bEWTvw8gE >}}
+{{< youtube N0bEWTvw8gE >}}
