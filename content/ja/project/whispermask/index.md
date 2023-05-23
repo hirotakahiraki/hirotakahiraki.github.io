@@ -1,6 +1,6 @@
 ---
 title: WhisperMask
-summary: 騒音環境でも利用可能なマスク型マイク
+summary: Mask-type microphone available in noisy environments
 tags:
   - Sensor
   - Wearable Devices
