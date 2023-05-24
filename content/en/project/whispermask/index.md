@@ -1,6 +1,6 @@
 ---
 title: WhisperMask
-summary: Mask-type Silent Speech Interface with Measurement of Mouth Movement
+summary: Mask-type microphone available in noisy environments
 tags:
   - Sensor
   - Wearable Devices
