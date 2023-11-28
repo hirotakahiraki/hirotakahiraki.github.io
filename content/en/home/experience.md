@@ -22,6 +22,15 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title:  Research Project Leader
+    company: JST
+    company_url: https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html
+    company_logo: JST
+    # location: 
+    date_start: '2023-10-01'
+    # date_end: 'current'
+    description: JST ACT-X Research Project Leader
+    
   - title: Research Assistant
     company: National Institute of Advanced Industrial Science and Technology
     company_url: https://unit.aist.go.jp/harc/en/index.html

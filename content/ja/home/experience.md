@@ -25,7 +25,7 @@ experience:
   - title:  研究代表
     company: JST
     company_url: https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html
-    company_logo: JST ACT-X
+    company_logo: JST
     # location: 
     date_start: '2023-10-01'
     # date_end: 'current'
