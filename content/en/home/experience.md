@@ -25,8 +25,8 @@ experience:
   - title:  Research Project Leader
     company: JST
     company_url: https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html
-    company_logo: JST
-    # location: 
+    company_logo: jst
+    location: Tokyo, Japan
     date_start: '2023-10-01'
     # date_end: 'current'
     description: JST ACT-X Research Project Leader
