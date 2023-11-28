@@ -57,4 +57,4 @@ design:
 6. 東京大学知能社会国際卓越大学院プログラム, <span style="color: gray;">*2021*</span>
 7. 第8回サイレント音声認識ワークショップ学生奨励賞, <span style="color: gray;">*2021*</span>
 8. 環境芸術学会ベストプレゼンテーション賞, <span style="color: gray;">*2021*</span>
-9. 東京大学本郷テックガレージ Spring Founder Program, <span style="color: gray;">*2021*</span>
+9.  東京大学本郷テックガレージ Spring Founder Program, <span style="color: gray;">*2021*</span>
