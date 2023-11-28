@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title:  Research Project Leader
-    company: JST
+    company: JST ACT-X
     company_url: https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html
     company_logo: jst
     location: Tokyo, Japan
