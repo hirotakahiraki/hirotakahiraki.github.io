@@ -29,7 +29,7 @@ experience:
     # location: 
     date_start: '2023-10-01'
     # date_end: 'current'
-    description: JST ACT-X 強靭化ハードウェア 研究代表
+    description: JST ACT-X リアル空間を強靭にするハードウェアの未来 研究代表
 
   - title:  リサーチアシスタント
     company: 産業技術総合研究所
