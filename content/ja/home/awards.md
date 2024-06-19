@@ -48,13 +48,13 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
-
-1. 東京大学学際情報学府 専攻長賞 <span style="color: gray;">*2022*</span>
-2. グッドデザインニューホープ賞 <span style="color: gray;">*2022*</span>
-3. JID Next Age賞 <span style="color: gray;">*2022*</span>
-4. WISS2022 対話発表賞 <span style="color: gray;">*2022*</span>
-5. IPA未踏IT人材発掘・育成事業, <span style="color: gray;">*2021*</span>
-6. 東京大学知能社会国際卓越大学院プログラム, <span style="color: gray;">*2021*</span>
-7. 第8回サイレント音声認識ワークショップ学生奨励賞, <span style="color: gray;">*2021*</span>
-8. 環境芸術学会ベストプレゼンテーション賞, <span style="color: gray;">*2021*</span>
-9.  東京大学本郷テックガレージ Spring Founder Program, <span style="color: gray;">*2021*</span>
+1. Best Paper Hourbale Mention Award, Augmented Humans 2024(AHs24) <span style="color: gray;">*2022*</span>
+2. 東京大学学際情報学府 専攻長賞 <span style="color: gray;">*2022*</span>
+3. グッドデザインニューホープ賞 <span style="color: gray;">*2022*</span>
+4. JID Next Age賞 <span style="color: gray;">*2022*</span>
+5. WISS2022 対話発表賞 <span style="color: gray;">*2022*</span>
+6. IPA未踏IT人材発掘・育成事業, <span style="color: gray;">*2021*</span>
+7. 東京大学知能社会国際卓越大学院プログラム, <span style="color: gray;">*2021*</span>
+8. 第8回サイレント音声認識ワークショップ学生奨励賞, <span style="color: gray;">*2021*</span>
+9. 環境芸術学会ベストプレゼンテーション賞, <span style="color: gray;">*2021*</span>
+10.  東京大学本郷テックガレージ Spring Founder Program, <span style="color: gray;">*2021*</span>

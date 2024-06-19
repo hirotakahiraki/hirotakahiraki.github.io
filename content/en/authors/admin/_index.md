@@ -6,7 +6,7 @@ title: Hirotaka Hiraki
 superuser: true
 
 # Role/position/tagline
-role: First-year Doctor Course Student
+role: Third-year Doctor Course Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -17,7 +17,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Human-Computer Interaction(HCI), Machine Learning, speech.
+bio: My research interests include Human-Computer Interaction(HCI), Machine Learning, Speech Interface.
 
 # Interests to show in About widget
 interests:
@@ -70,6 +70,6 @@ email: ''
 highlight_name: true
 ---
 
-I’m a Researcher, Software Engineer, Juggler, and Doctor Course Student at The University of Tokyo, Rekimoto Laboratory. My research topic is Human-Computer Interaction (HCI) and focuses on extending humans’ ability through wearable devices. I’m particularly interested in vocal communication and want to create new interactions by extending the range of devices that computers can be handled daily.
+I am a researcher, software engineer, ball juggler, and doctoral student at the University of Tokyo’s Rekimoto Laboratory. My research focuses on Human-Computer Interaction (HCI), specifically on augmenting human capabilities through wearable devices. My primary interest lies in vocal communication, where I aim to innovate new forms of interaction by broadening the scope of everyday computer-handled devices.
 
-Download [CV](assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf) (last update: Oct 2022)
+Download [CV](assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf) (last update: Jun 2024)

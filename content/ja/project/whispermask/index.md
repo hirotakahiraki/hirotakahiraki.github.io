@@ -4,16 +4,16 @@ summary: 騒音環境でも利用できるマスク型マイク
 tags:
   - Sensor
   - Wearable Devices
-date: '2023-04-28T00:00:00Z'
+date: '2024-04-06T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 links:
-  # - icon: pager
-  #   icon_pack: fa
-  #   name: DemoPaper
-  #   url: https://dl.acm.org/doi/10.1145/3544549.3583936
+  - icon: pager
+    icon_pack: fa
+    name: Paper
+    url: https://dl.acm.org/doi/10.1145/3652920.3652925
   
   - icon: youtube
     icon_pack: fab

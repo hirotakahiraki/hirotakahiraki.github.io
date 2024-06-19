@@ -49,12 +49,13 @@ design:
   flip_alt_rows: false
 ---
 
-1. The Univerisity of Tokyo, GSII, Major Award, Best Master's Thesis, <span style="color: gray;">*2022*</span>
-2. Good Design New Hope Award, Honorable mention<span style="color: gray;">*2022*</span>
-3. Japan Industry Designer's Association Next Age Award, <span style="color: gray;">*2022*</span>
-4. Demo Award at Workshop on Interactive Systems and Software (Domestic Conference), <span style="color: gray;">*2022*</span>
-5. Information-technology Promotion Agency (IPA) MITOU Program, <span style="color: gray;">*2021*</span>
-6. The Univerisity of Tokyo PhD Fellowship, <span style="color: gray;">*2021*</span>
-7. Best Presentation Award at Silent Speech Recogniiton Workshop (Domestic Workshop), <span style="color: gray;">*2021*</span>
-8. Best Presentation Award at Institute of Environmental Art and Design (Domestic Conference), <span style="color: gray;">*2021*</span>
-9. The University of Tokyo Hongo Tech Garage Spring Founder Program, <span style="color: gray;">*2021*</span>
+1. Best Paper Honorable Mention Award Augmented Humans 2024 (AHs24) , <span style="color: gray;">*2024*</span>
+2. The Univerisity of Tokyo, GSII, Major Award, Best Master's Thesis, <span style="color: gray;">*2022*</span>
+3. Good Design New Hope Award, Honorable mention<span style="color: gray;">*2022*</span>
+4. Japan Industry Designer's Association Next Age Award, <span style="color: gray;">*2022*</span>
+5. Demo Award at Workshop on Interactive Systems and Software (Domestic Conference), <span style="color: gray;">*2022*</span>
+6. Information-technology Promotion Agency (IPA) MITOU Program, <span style="color: gray;">*2021*</span>
+7. The Univerisity of Tokyo PhD Fellowship, <span style="color: gray;">*2021*</span>
+8. Best Presentation Award at Silent Speech Recogniiton Workshop (Domestic Workshop), <span style="color: gray;">*2021*</span>
+9. Best Presentation Award at Institute of Environmental Art and Design (Domestic Conference), <span style="color: gray;">*2021*</span>
+10. The University of Tokyo Hongo Tech Garage Spring Founder Program, <span style="color: gray;">*2021*</span>

@@ -6,7 +6,7 @@ title: 平城裕隆
 superuser: true
 
 # Role/position/tagline
-role: 博士課程1年
+role: 博士課程3年
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -71,6 +71,7 @@ highlight_name: true
 ---
 
 情報技術を用いて人間とコンピューターの間を介在することで、人の能力や生活をゆたかに拡張することに興味を持っています。
-特に、ウェアラブルなデバイスや新たなインタフェースによって演算処理を利用できる領域を拡大し、人の計算可能性を高めていきたいと思っています。
+特に、ウェアラブルなデバイスや音声のインタフェースに興味があり、口パクで声を認識できるサイレントスピーチの研究や、居酒屋のようなうるさい環境でも会話ができる音声入力デバイスの研究をしています。
 
-Download [CV](assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf) (last update: Oct 2022)
+
+Download [CV](../../../en/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf) (last update: Jun 2024)
