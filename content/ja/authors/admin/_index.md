@@ -74,4 +74,4 @@ highlight_name: true
 特に、ウェアラブルなデバイスや音声のインタフェースに興味があり、口パクで声を認識できるサイレントスピーチの研究や、居酒屋のようなうるさい環境でも会話ができる音声入力デバイスの研究をしています。
 
 
-Download [CV](../../../assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf) (last update: Jun 2024)
+Download [CV](../../../en/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf) (last update: Jun 2024)
