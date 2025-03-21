@@ -48,7 +48,7 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
-1. Best Paper Hourbale Mention Award, Augmented Humans 2024(AHs24) <span style="color: gray;">*2022*</span>
+1. Best Paper Hourbale Mention Award, Augmented Humans 2024(AHs24) <a href="https://2024.augmented-humans.org/">リンク</a><span style="color: gray;">*2024*</span>
 2. 東京大学学際情報学府 専攻長賞 <span style="color: gray;">*2022*</span>
 3. グッドデザインニューホープ賞 <span style="color: gray;">*2022*</span>
 4. JID Next Age賞 <span style="color: gray;">*2022*</span>
