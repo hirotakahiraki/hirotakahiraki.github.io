@@ -49,9 +49,19 @@ jobs:
             --minify \
             --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        run: |
+          mkdir -p /tmp/artifacts
+          cp -r ./public /tmp/artifacts/github-pages
+          cd /tmp/artifacts
+          tar -cvf github-pages.tar github-pages
+          gzip github-pages.tar
+          echo "GITHUB_PAGES_ARTIFACT_PATH=/tmp/artifacts/github-pages.tar.gz" >> $GITHUB_ENV
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-artifact@v3
         with:
-          path: ./public
+          name: github-pages
+          path: /tmp/artifacts/github-pages.tar.gz
+          retention-days: 1
 
   # Deployment job
   deploy:
