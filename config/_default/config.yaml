@@ -30,7 +30,8 @@ module:
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -69,3 +70,4 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+googleAnalytics: "" # Add your Google Analytics tracking ID or leave empty to disable

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{{- $page_id := "" -}}
+{{- if .File -}}
+{{- $page_id = .File.UniqueID -}}
+{{- else -}}
+{{- $page_id = delimit (shuffle (seq 1 9)) "" -}}
+{{- end -}}
+
+<html lang="{{ site.LanguageCode | default " en-us" }}" {{ if site.Params.second_color }}class="dark" {{ end }}>
+
+<head>
+    {{ partial "site_head" . }}
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="{{ if or .IsHome (eq .Type " widget_page")
+    }}#navbar-main{{else}}#TableOfContents{{end}}"
+    class="page-wrapper {{ if not .IsHome }}article-page{{end}} {{ if eq site.Params.theme " dark" }}dark{{end}} {{ if
+    not (or (eq .IsHome true) (eq .Type "widget_page" )) }}{{else}}home-page{{end}}">
+
+    {{ partial "search" . }}
+
+    {{ partial "navbar" . }}
+
+    {{ block "main" . }}{{ end }}
+
+    {{ partial "site_js" . }}
+
+    {{/* Docs and Updates layouts include the site footer in a different location. */}}
+    {{ if not (in (slice "book" "docs" "updates") .Type) }}
+    <div class="container">
+        {{ partial "site_footer" . }}
+    </div>
+    {{ end }}
+
+    {{ partial "citation" . }}
+
+</body>
+
+</html>
