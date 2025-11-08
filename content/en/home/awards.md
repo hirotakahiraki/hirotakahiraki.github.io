@@ -49,13 +49,20 @@ design:
   flip_alt_rows: false
 ---
 
-1. Best Paper Honorable Mention Award Augmented Humans 2024 (AHs24) , <span style="color: gray;">*2024*</span>
-2. The Univerisity of Tokyo, GSII, Major Award, Best Master's Thesis, <span style="color: gray;">*2022*</span>
-3. Good Design New Hope Award, Honorable mention<span style="color: gray;">*2022*</span>
-4. Japan Industry Designer's Association Next Age Award, <span style="color: gray;">*2022*</span>
-5. Demo Award at Workshop on Interactive Systems and Software (Domestic Conference), <span style="color: gray;">*2022*</span>
-6. Information-technology Promotion Agency (IPA) MITOU Program, <span style="color: gray;">*2021*</span>
-7. The Univerisity of Tokyo PhD Fellowship, <span style="color: gray;">*2021*</span>
-8. Best Presentation Award at Silent Speech Recogniiton Workshop (Domestic Workshop), <span style="color: gray;">*2021*</span>
-9. Best Presentation Award at Institute of Environmental Art and Design (Domestic Conference), <span style="color: gray;">*2021*</span>
-10. The University of Tokyo Hongo Tech Garage Spring Founder Program, <span style="color: gray;">*2021*</span>
+1. CEATEC AWARD 2025 Digital Minister's Award, <span style="color: gray;">*2025*</span>
+2. Information Processing Society of Japan (IPSJ) Yamashita Memorial Research Award, <span style="color: gray;">*2025*</span>
+3. IPSJ Interaction 2025 Best Paper, Best Presentation, and Interactive Presentation Awards, <span style="color: gray;">*2025*</span>
+4. Acoustical Society of Japan 29th Autumn Meeting Student Outstanding Presentation Award, <span style="color: gray;">*2025*</span>
+5. James Dyson Award 2024 Japan National Winner, <span style="color: gray;">*2024*</span>
+6. Best Paper Honorable Mention Award at Augmented Humans 2024 (AHs24), <span style="color: gray;">*2024*</span>
+7. GUGEN 2024 Good Idea Award and two additional prizes, <span style="color: gray;">*2024*</span>
+8. IPSJ UBI Technical Committee #84 Student Outstanding Presentation Award, <span style="color: gray;">*2024*</span>
+9. The Univerisity of Tokyo, GSII, Major Award, Best Master's Thesis, <span style="color: gray;">*2022*</span>
+10. Good Design New Hope Award, Honorable mention<span style="color: gray;">*2022*</span>
+11. Japan Industry Designer's Association Next Age Award, <span style="color: gray;">*2022*</span>
+12. Demo Award at Workshop on Interactive Systems and Software (Domestic Conference), <span style="color: gray;">*2022*</span>
+13. Information-technology Promotion Agency (IPA) MITOU Program, <span style="color: gray;">*2021*</span>
+14. The Univerisity of Tokyo PhD Fellowship, <span style="color: gray;">*2021*</span>
+15. Best Presentation Award at Silent Speech Recogniiton Workshop (Domestic Workshop), <span style="color: gray;">*2021*</span>
+16. Best Presentation Award at Institute of Environmental Art and Design (Domestic Conference), <span style="color: gray;">*2021*</span>
+17. The University of Tokyo Hongo Tech Garage Spring Founder Program, <span style="color: gray;">*2021*</span>

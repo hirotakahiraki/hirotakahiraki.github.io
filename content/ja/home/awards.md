@@ -48,13 +48,20 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
-1. Best Paper Hourbale Mention Award, Augmented Humans 2024(AHs24) <span style="color: gray;">*2024*</span>
-2. 東京大学学際情報学府 専攻長賞 <span style="color: gray;">*2022*</span>
-3. グッドデザインニューホープ賞 <span style="color: gray;">*2022*</span>
-4. JID Next Age賞 <span style="color: gray;">*2022*</span>
-5. WISS2022 対話発表賞 <span style="color: gray;">*2022*</span>
-6. IPA未踏IT人材発掘・育成事業, <span style="color: gray;">*2021*</span>
-7. 東京大学知能社会国際卓越大学院プログラム, <span style="color: gray;">*2021*</span>
-8. 第8回サイレント音声認識ワークショップ学生奨励賞, <span style="color: gray;">*2021*</span>
-9. 環境芸術学会ベストプレゼンテーション賞, <span style="color: gray;">*2021*</span>
-10.  東京大学本郷テックガレージ Spring Founder Program, <span style="color: gray;">*2021*</span>
+1. CEATEC AWARD 2025 デジタル大臣賞 <span style="color: gray;">*2025*</span>
+2. 情報処理学会 山下記念研究賞 <span style="color: gray;">*2025*</span>
+3. 情報処理学会 インタラクション2025 最優秀論文賞・最優秀発表賞・インタラクティブ発表賞 <span style="color: gray;">*2025*</span>
+4. 日本音響学会 第29回秋季研究発表会 学生優秀発表賞 <span style="color: gray;">*2025*</span>
+5. James Dyson Award 2024 国内最優秀賞 <span style="color: gray;">*2024*</span>
+6. Best Paper Honorable Mention Award, Augmented Humans 2024 (AHs24) <span style="color: gray;">*2024*</span>
+7. GUGEN 2024 Good Idea賞など3件受賞(最多受賞) <span style="color: gray;">*2024*</span>
+8. 情報処理学会 第84回UBI研究会 学生優秀発表賞 <span style="color: gray;">*2024*</span>
+9. 東京大学学際情報学府 専攻長賞 <span style="color: gray;">*2022*</span>
+10. グッドデザインニューホープ賞 <span style="color: gray;">*2022*</span>
+11. JID Next Age賞 <span style="color: gray;">*2022*</span>
+12. WISS2022 対話発表賞 <span style="color: gray;">*2022*</span>
+13. IPA未踏IT人材発掘・育成事業, <span style="color: gray;">*2021*</span>
+14. 東京大学知能社会国際卓越大学院プログラム, <span style="color: gray;">*2021*</span>
+15. 第8回サイレント音声認識ワークショップ学生奨励賞, <span style="color: gray;">*2021*</span>
+16. 環境芸術学会ベストプレゼンテーション賞, <span style="color: gray;">*2021*</span>
+17. 東京大学本郷テックガレージ Spring Founder Program, <span style="color: gray;">*2021*</span>
