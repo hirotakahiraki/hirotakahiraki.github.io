@@ -1,0 +1,55 @@
+// Custom styles for language toggle switch in navbar
+.lang-toggle--switch {
+  font-size: 0.875rem;
+  .lang-toggle__label {
+    color: inherit;
+    font-weight: 600;
+  }
+  .lang-toggle__switch {
+    position: relative;
+    display: inline-flex;
+    width: 48px;
+    height: 26px;
+    align-items: center;
+  }
+  .lang-toggle__checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+  .lang-toggle__slider {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 26px;
+    background-color: #d1d5db;
+    border-radius: 999px;
+    transition: background-color 0.25s ease;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      left: 2px;
+      top: 2px;
+      background-color: #fff;
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+      transition: transform 0.25s ease;
+    }
+  }
+  .lang-toggle__checkbox:checked + .lang-toggle__slider {
+    background-color: #009688;
+    &:before {
+      transform: translateX(22px);
+    }
+  }
+  .lang-toggle__checkbox:disabled + .lang-toggle__slider {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  .lang-toggle__checkbox:focus-visible + .lang-toggle__slider {
+    box-shadow: 0 0 0 3px rgba(0, 150, 136, 0.35);
+  }
+}
