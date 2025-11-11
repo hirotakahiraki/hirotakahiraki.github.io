@@ -1,0 +1,86 @@
+en:
+  peer_reviewed:
+    title: "Peer-Reviewed Journal/Conference Papers"
+    groups:
+      - subtitle: ""
+        items:
+          - text: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru, and Jun Rekimoto. \"ClothTalk: Conductive Cloth Microphone for GPU-free, Real-time Clear Talk in Noisy Environments\", IEEE Access Journal, 2025."
+          - text: "H. Hiraki and J. Rekimoto. \"SilentWhisper: Enabling User-Independent Ultra-Low Volume Whispered Speech Recognition,\" IEEE Access, vol. 13, pp. 168782-168791, 2025. https://ieeexplore.ieee.org/document/11173439/"
+          - text: "Hirotaka Hiraki and Jun Rekimoto. MaskClip: Detachable Clip-On Piezoelectric Sensing of Mask Surface Vibrations for Real-Time Noise-Robust Speech Input. In Proceedings of the Augmented Humans International Conference 2024 (AHs '25). Association for Computing Machinery, New York, NY, USA, 1-12. https://doi.org/10.1145/3745900.3746088"
+          - text: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru, and Jun Rekimoto. WhisperMask: a noise suppressive mask-type microphone for whisper speech. In Proceedings of the Augmented Humans International Conference 2024 (AHs '24). Association for Computing Machinery, New York, NY, USA, 1-14. https://doi.org/10.1145/3652920.3652925"
+          - text: "Shota Imamura, Hirotaka Hiraki, and Jun Rekimoto. Serendipity Wall: A Discussion Support System Using Real-time Speech Recognition and Large Language Model. In Proceedings of the Augmented Humans International Conference 2024 (AHs '24). Association for Computing Machinery, New York, NY, USA, 237-247. https://doi.org/10.1145/3652920.3652931"
+          - text: "Takekazu Kitagishi, Hirotaka Hiraki, Hiromi Nakamura, Yoshio Ishiguro, and Jun Rekimoto. Pinching Tactile Display: A Cloth that Changes Tactile Sensation by Electrostatic Adsorption. In Proceedings of the 2024 International Conference on Advanced Visual Interfaces (AVI '24). Association for Computing Machinery, New York, NY, USA, Article 26, 1-9. https://doi.org/10.1145/3656650.3656690"
+          - text: "Yusuke Kunimi, Masa Ogata, Hirotaka Hiraki, Motoshi Itagaki, Shusuke Kanazawa, and Masaaki Mochimaru. E-MASK: A Mask-Shaped Interface for Silent Speech Interaction with Flexible Strain Sensors. In Proceedings of the Augmented Humans International Conference 2022 (AHs '22). Association for Computing Machinery, New York, NY, USA, 26-34. https://doi.org/10.1145/3519391.3519399"
+          - text: "Hirotaka Hiraki and Jun Rekimoto. SilentMask: Mask-type Silent Speech Interface with Measurement of Mouth Movement. In Augmented Humans Conference 2021 (AHs '21). Association for Computing Machinery, New York, NY, USA, 86-90. https://doi.org/10.1145/3458709.3458985"
+  semi_archival:
+    title: "Semi-Archival Peer-Reviewed Extended Abstracts"
+    groups:
+      - subtitle: ""
+        items:
+          - text: "Hirotaka Hiraki and Jun Rekimoto. SilentWhisper: inaudible faint whisper speech input for silent speech interaction. In Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (CHI EA '25). Association for Computing Machinery, New York, NY, USA, Article 454, 1-5. https://dl.acm.org/doi/10.1145/3706599.3721185"
+          - text: "Hirotaka Hiraki and Jun Rekimoto. Piezoelectric Sensing of Mask Surface Waves for Noise-Suppressive Speech Input. In The 37th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '24). Association for Computing Machinery, New York, NY, USA, Article 78, 1-3. https://doi.org/10.1145/3672539.3686331"
+          - text: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru, and Jun Rekimoto. Conductive Fabric Diaphragm for Noise-Suppressive Headset Microphone. In The 37th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '24). Association for Computing Machinery, New York, NY, USA, Article 56, 1-3. https://doi.org/10.1145/3672539.3686768"
+          - text: "Naoto Nishida, Hirotaka Hiraki, Jun Rekimoto, and Yoshio Ishiguro. Real-Time Word-Level Temporal Segmentation in Streaming Speech Recognition. In The 37th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '24). Association for Computing Machinery, New York, NY, USA, Article 9, 1-3. https://doi.org/10.1145/3672539.3686738"
+          - text: "Shota Imamura, Hirotaka Hiraki, and Jun Rekimoto. Serendipity Wall: A discussion support system using real-time speech recognition and large language model. In 2024 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pages 588-590, Los Alamitos, CA, USA, March 2024. IEEE Computer Society. https://ieeexplore.ieee.org/document/10536315"
+          - text: "T. Kitagishi, H. Hiraki, Y. Ishiguro, and J. Rekimoto. Pinching Tactile Display: A Remote Haptic Feedback System for Fabric Texture. In 2024 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), Orlando, FL, USA, 2024, pp. 594-596. https://ieeexplore.ieee.org/document/10536304"
+          - text: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru, and Jun Rekimoto. External noise reduction using WhisperMask, a mask-type wearable microphone. In Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems (CHI EA '23). Association for Computing Machinery, New York, NY, USA, Article 454, 1-5. https://doi.org/10.1145/3544549.3583936"
+          - text: "Hirotaka Hiraki and Jun Rekimoto. SilentWhisper: faint whisper speech using wearable microphone. In Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 27, 1-3. https://doi.org/10.1145/3526114.3558715"
+  domestic:
+    title: "Domestic Journal/Conference Papers"
+    groups:
+      - subtitle: "国内学会・シンポジウム等における発表(口頭発表・査読あり)"
+        items:
+          - text: "平城裕隆, 金澤周介, 三浦貴大, 吉田学, 持丸正明, 暦本純一, \"ClothTalk：騒音環境下でもGPU不要でリアルタイムにクリアな音声入力を実現する導電布マイクロフォン\", インタラクション2025, 情報処理学会"
+          - text: "平城裕隆, 金澤周介, 三浦貴大, 吉田学, 持丸正明, 暦本純一, \"WhisperMask:騒音環境で音声入力可能なマスク型マイク\", インタラクション2024, 情報処理学会"
+          - text: "今村翔太, 平城裕隆, 暦本純一, \"Serendipity Wall: 会話文字起こしのベクター検索と大規模言語モデルによる議論支援システム\", インタラクション2024, 情報処理学会"
+      - subtitle: "国内学会・シンポジウム等における発表(査読なし)"
+        items:
+          - text: "平城裕隆, 金澤周介, 三浦貴大, 吉田学, 持丸正明, 暦本純一, フレキシブルマイクを用いた騒音環境での音声入力, 第152回(2024年秋季)研究発表会, 2024"
+          - text: "平城裕隆, 暦本純一, \"マスク表面の振動計測による着脱可能なリアルタイム音声強調手法の提案\", 情報処理学会第84回UBI研究会, 2024"
+          - text: "今村翔太, 平城裕隆, 暦本純一, Serendipity Wall: 会話文字起こしのベクター検索と大規模言語モデルによる議論支援システム, 第31回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2023)"
+          - text: "平城裕隆, 金澤周介, 三浦貴大, 吉田学, 持丸正明, 暦本純一, WhisperMask:騒音環境でも囁き声が利用可能なウェアラブルマイク, 第30回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2022)"
+          - text: "平城裕隆, 暦本純一, SilentMask: 口周辺の運動計測によるマスク型サイレントスピーチインタラクション, インタラクション2021, 情報処理学会, 734-738, 2021"
+          - text: "李万慧, 平城裕隆, 中村拓人, 暦本純一, ハンガー反射を用いて遠隔者の頭部回旋感覚を体感する研究, インタラクション2022, 502-504, 情報処理学会, 2022"
+ja:
+  peer_reviewed:
+    title: "学術誌・国際学会(査読あり)"
+    groups:
+      - subtitle: ""
+        items:
+          - text: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru, and Jun Rekimoto. \"ClothTalk: Conductive Cloth Microphone for GPU-free, Real-time Clear Talk in Noisy Environments\", IEEE Access Journal, 2025."
+          - text: "H. Hiraki and J. Rekimoto. \"SilentWhisper: Enabling User-Independent Ultra-Low Volume Whispered Speech Recognition,\" IEEE Access, vol. 13, pp. 168782-168791, 2025. https://ieeexplore.ieee.org/document/11173439/"
+          - text: "Hirotaka Hiraki and Jun Rekimoto. MaskClip: Detachable Clip-On Piezoelectric Sensing of Mask Surface Vibrations for Real-Time Noise-Robust Speech Input. In Proceedings of the Augmented Humans International Conference 2024 (AHs '25). Association for Computing Machinery, New York, NY, USA, 1-12. https://doi.org/10.1145/3745900.3746088"
+          - text: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru, and Jun Rekimoto. WhisperMask: a noise suppressive mask-type microphone for whisper speech. In Proceedings of the Augmented Humans International Conference 2024 (AHs '24). Association for Computing Machinery, New York, NY, USA, 1-14. https://doi.org/10.1145/3652920.3652925"
+          - text: "Shota Imamura, Hirotaka Hiraki, and Jun Rekimoto. Serendipity Wall: A Discussion Support System Using Real-time Speech Recognition and Large Language Model. In Proceedings of the Augmented Humans International Conference 2024 (AHs '24). Association for Computing Machinery, New York, NY, USA, 237-247. https://doi.org/10.1145/3652920.3652931"
+          - text: "Takekazu Kitagishi, Hirotaka Hiraki, Hiromi Nakamura, Yoshio Ishiguro, and Jun Rekimoto. Pinching Tactile Display: A Cloth that Changes Tactile Sensation by Electrostatic Adsorption. In Proceedings of the 2024 International Conference on Advanced Visual Interfaces (AVI '24). Association for Computing Machinery, New York, NY, USA, Article 26, 1-9. https://doi.org/10.1145/3656650.3656690"
+          - text: "Yusuke Kunimi, Masa Ogata, Hirotaka Hiraki, Motoshi Itagaki, Shusuke Kanazawa, and Masaaki Mochimaru. E-MASK: A Mask-Shaped Interface for Silent Speech Interaction with Flexible Strain Sensors. In Proceedings of the Augmented Humans International Conference 2022 (AHs '22). Association for Computing Machinery, New York, NY, USA, 26-34. https://doi.org/10.1145/3519391.3519399"
+          - text: "Hirotaka Hiraki and Jun Rekimoto. SilentMask: Mask-type Silent Speech Interface with Measurement of Mouth Movement. In Augmented Humans Conference 2021 (AHs '21). Association for Computing Machinery, New York, NY, USA, 86-90. https://doi.org/10.1145/3458709.3458985"
+  semi_archival:
+    title: "国際学会(ポスター・デモ)"
+    groups:
+      - subtitle: ""
+        items:
+          - text: "Hirotaka Hiraki and Jun Rekimoto. SilentWhisper: inaudible faint whisper speech input for silent speech interaction. In Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (CHI EA '25). Association for Computing Machinery, New York, NY, USA, Article 454, 1-5. https://dl.acm.org/doi/10.1145/3706599.3721185"
+          - text: "Hirotaka Hiraki and Jun Rekimoto. Piezoelectric Sensing of Mask Surface Waves for Noise-Suppressive Speech Input. In The 37th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '24). Association for Computing Machinery, New York, NY, USA, Article 78, 1-3. https://doi.org/10.1145/3672539.3686331"
+          - text: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru, and Jun Rekimoto. Conductive Fabric Diaphragm for Noise-Suppressive Headset Microphone. In The 37th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '24). Association for Computing Machinery, New York, NY, USA, Article 56, 1-3. https://doi.org/10.1145/3672539.3686768"
+          - text: "Naoto Nishida, Hirotaka Hiraki, Jun Rekimoto, and Yoshio Ishiguro. Real-Time Word-Level Temporal Segmentation in Streaming Speech Recognition. In The 37th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '24). Association for Computing Machinery, New York, NY, USA, Article 9, 1-3. https://doi.org/10.1145/3672539.3686738"
+          - text: "Shota Imamura, Hirotaka Hiraki, and Jun Rekimoto. Serendipity Wall: A discussion support system using real-time speech recognition and large language model. In 2024 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pages 588-590, Los Alamitos, CA, USA, March 2024. IEEE Computer Society. https://ieeexplore.ieee.org/document/10536315"
+          - text: "T. Kitagishi, H. Hiraki, Y. Ishiguro, and J. Rekimoto. Pinching Tactile Display: A Remote Haptic Feedback System for Fabric Texture. In 2024 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), Orlando, FL, USA, 2024, pp. 594-596. https://ieeexplore.ieee.org/document/10536304"
+          - text: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru, and Jun Rekimoto. External noise reduction using WhisperMask, a mask-type wearable microphone. In Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems (CHI EA '23). Association for Computing Machinery, New York, NY, USA, Article 454, 1-5. https://doi.org/10.1145/3544549.3583936"
+          - text: "Hirotaka Hiraki and Jun Rekimoto. SilentWhisper: faint whisper speech using wearable microphone. In Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 27, 1-3. https://doi.org/10.1145/3526114.3558715"
+  domestic:
+    title: "国内学会"
+    groups:
+      - subtitle: "国内学会・シンポジウム等における発表(口頭発表・査読あり)"
+        items:
+          - text: "平城裕隆, 金澤周介, 三浦貴大, 吉田学, 持丸正明, 暦本純一, \"ClothTalk：騒音環境下でもGPU不要でリアルタイムにクリアな音声入力を実現する導電布マイクロフォン\", インタラクション2025, 情報処理学会"
+          - text: "平城裕隆, 金澤周介, 三浦貴大, 吉田学, 持丸正明, 暦本純一, \"WhisperMask:騒音環境で音声入力可能なマスク型マイク\", インタラクション2024, 情報処理学会"
+          - text: "今村翔太, 平城裕隆, 暦本純一, \"Serendipity Wall: 会話文字起こしのベクター検索と大規模言語モデルによる議論支援システム\", インタラクション2024, 情報処理学会"
+      - subtitle: "国内学会・シンポジウム等における発表(査読なし)"
+        items:
+          - text: "平城裕隆, 金澤周介, 三浦貴大, 吉田学, 持丸正明, 暦本純一, フレキシブルマイクを用いた騒音環境での音声入力, 第152回(2024年秋季)研究発表会, 2024"
+          - text: "平城裕隆, 暦本純一, \"マスク表面の振動計測による着脱可能なリアルタイム音声強調手法の提案\", 情報処理学会第84回UBI研究会, 2024"
+          - text: "今村翔太, 平城裕隆, 暦本純一, Serendipity Wall: 会話文字起こしのベクター検索と大規模言語モデルによる議論支援システム, 第31回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2023)"
+          - text: "平城裕隆, 金澤周介, 三浦貴大, 吉田学, 持丸正明, 暦本純一, WhisperMask:騒音環境でも囁き声が利用可能なウェアラブルマイク, 第30回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2022)"
+          - text: "平城裕隆, 暦本純一, SilentMask: 口周辺の運動計測によるマスク型サイレントスピーチインタラクション, インタラクション2021, 情報処理学会, 734-738, 2021"
+          - text: "李万慧, 平城裕隆, 中村拓人, 暦本純一, ハンガー反射を用いて遠隔者の頭部回旋感覚を体感する研究, インタラクション2022, 502-504, 情報処理学会, 2022"

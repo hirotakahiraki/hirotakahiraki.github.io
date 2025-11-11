@@ -1,0 +1,43 @@
+{{- $data := site.Data.publications -}}
+{{- if not $data }}
+  {{- warnf "publications shortcode: site.Data.publications not found" -}}
+{{- else -}}
+  {{- $lang := .Site.Language.Lang -}}
+  {{- $locale := (index $data $lang) | default (index $data "en") -}}
+  {{- if not $locale -}}
+    {{- warnf "publications shortcode: no data for lang %s" $lang -}}
+  {{- else -}}
+    {{- $sections := slice "peer_reviewed" "semi_archival" "domestic" -}}
+    {{- with $locale.heading }}<h2>{{ . }}</h2>{{ end -}}
+    {{- range $sections -}}
+      {{- $section := index $locale . -}}
+      {{- if $section -}}
+        <section class="publication-subsection">
+          {{- with $section.title }}<h3>{{ . }}</h3>{{ end -}}
+          {{- range $section.groups -}}
+            {{- if or .subtitle .items -}}
+              <div class="publication-group">
+                {{- with .subtitle }}<h4>{{ . }}</h4>{{ end -}}
+                {{- if .items -}}
+                  <ul>
+                    {{- range .items -}}
+                      {{- $text := .text | default "" -}}
+                      {{- if $text -}}
+                        {{- $html := $text | markdownify -}}
+                        {{- $html = replace $html "Hirotaka Hiraki" "<strong><u>Hirotaka Hiraki</u></strong>" -}}
+                        {{- $html = replace $html "H. Hiraki" "<strong><u>H. Hiraki</u></strong>" -}}
+                        {{- $html = replace $html "H.Hiraki" "<strong><u>H.Hiraki</u></strong>" -}}
+                        {{- $html = replace $html "平城裕隆" "<strong><u>平城裕隆</u></strong>" -}}
+                        <li>{{ $html | safeHTML }}</li>
+                      {{- end -}}
+                    {{- end -}}
+                  </ul>
+                {{- end -}}
+              </div>
+            {{- end -}}
+          {{- end -}}
+        </section>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
