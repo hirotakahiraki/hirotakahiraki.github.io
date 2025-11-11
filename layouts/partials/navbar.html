@@ -4,6 +4,11 @@
 {{ $current_page := . }}
 {{ $highlight_active_link := site.Params.header.navbar.highlight_active_link | default true }}
 {{ $show_current_language := site.Params.header.navbar.show_language | default false }}
+{{ $full_title := site.Title }}
+{{ $short_title := "Hirotaka Hiraki" }}
+{{ if eq .Lang "ja" }}
+  {{ $short_title = "平城裕隆" }}
+{{ end }}
 
 {{/* Get site logo. */}}
 {{ $show_logo := site.Params.header.navbar.show_logo | default true }}
@@ -25,7 +30,8 @@
             {{with site.Params.header.image.width}}width="{{.}}"{{end}}
             {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
           {{- else -}}
-            {{- site.Title -}}
+            <span class="site-title d-none d-md-inline">{{ $full_title }}</span>
+            <span class="site-title d-inline d-md-none">{{ $short_title }}</span>
           {{- end -}}
         </a>
       </div>
@@ -46,7 +52,8 @@
           {{with site.Params.header.image.width}}width="{{.}}"{{end}}
           {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
         {{- else -}}
-          {{- site.Title -}}
+          <span class="site-title d-none d-md-inline">{{ $full_title }}</span>
+          <span class="site-title d-inline d-md-none">{{ $short_title }}</span>
         {{- end -}}
         </a>
       </div>
@@ -227,7 +234,10 @@
         {{ $has_switch := and (ne $lang_en_url "") (ne $lang_ja_url "") }}
 
         <li class="nav-item lang-toggle lang-toggle--switch d-flex align-items-center" aria-label="{{ i18n "languages" | default "Languages" }}">
-          <span class="lang-toggle__label mr-2">{{ index site.Data.i18n.languages "ja" | default "JA" }}</span>
+          <span class="lang-toggle__label mr-2">
+            <span class="d-inline d-md-none">JA</span>
+            <span class="d-none d-md-inline">日本語</span>
+          </span>
           <label class="lang-toggle__switch mb-0">
             <input
               type="checkbox"
@@ -240,7 +250,10 @@
               onchange="if(!this.disabled){var url = this.checked ? this.dataset.langEn : this.dataset.langJa; if(url){ window.location.href = url; }}">
             <span class="lang-toggle__slider" aria-hidden="true"></span>
           </label>
-          <span class="lang-toggle__label ml-2">{{ index site.Data.i18n.languages "en" | default "EN" }}</span>
+          <span class="lang-toggle__label ml-2">
+            <span class="d-inline d-md-none">EN</span>
+            <span class="d-none d-md-inline">English</span>
+          </span>
         </li>
         {{ end }}
 
