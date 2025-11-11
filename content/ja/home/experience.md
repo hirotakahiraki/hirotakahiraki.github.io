@@ -59,5 +59,5 @@ experience:
     description: バックエンドエンジニア・ウェブライター
 
 design:
-  columns: '1'
+  columns: '2'
 ---
