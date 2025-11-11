@@ -171,27 +171,6 @@
         </li>
         {{ end }}
 
-        {{ $show_day_night := site.Params.header.navbar.show_day_night | default true }}
-        {{ $has_day_night_themes := (and site.Params.appearance.theme_day site.Params.appearance.theme_night) }}
-        {{ if and $has_day_night_themes $show_day_night }}
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="{{ i18n "theme_selector" | default "Display preferences" }}">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>{{ i18n "theme_light" | default "Light" }}</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>{{ i18n "theme_dark" | default "Dark" }}</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>{{ i18n "theme_auto" | default "Automatic" }}</span>
-            </a>
-          </div>
-        </li>
-        {{ end }}
-
         {{ $show_translations := site.Params.header.navbar.show_translations | default true }}
         {{ if $show_translations }}
         {{ $current_page := . }}
@@ -254,6 +233,27 @@
             <span class="d-inline d-md-none">EN</span>
             <span class="d-none d-md-inline">English</span>
           </span>
+        </li>
+        {{ end }}
+
+        {{ $show_day_night := site.Params.header.navbar.show_day_night | default true }}
+        {{ $has_day_night_themes := (and site.Params.appearance.theme_day site.Params.appearance.theme_night) }}
+        {{ if and $has_day_night_themes $show_day_night }}
+        <li class="nav-item theme-toggle">
+          <button class="nav-link theme-toggle__button js-theme-toggle" type="button" aria-label="{{ i18n "theme_selector" | default "Display preferences" }}">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </button>
+          <div class="d-none">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>{{ i18n "theme_light" | default "Light" }}</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>{{ i18n "theme_dark" | default "Dark" }}</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>{{ i18n "theme_auto" | default "Automatic" }}</span>
+            </a>
+          </div>
         </li>
         {{ end }}
 

@@ -54,8 +54,17 @@
   }
 }
 
-.theme-dropdown__label {
-  font-weight: 600;
-  font-size: 0.85rem;
-  text-transform: capitalize;
+.theme-toggle__button {
+  border: 0;
+  background: none;
+  padding: 0.35rem 0.75rem;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle__button:focus {
+  outline: none;
+  box-shadow: none;
 }
