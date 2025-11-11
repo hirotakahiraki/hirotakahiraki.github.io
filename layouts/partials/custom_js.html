@@ -4,45 +4,210 @@
     const linkLight = document.querySelector('.js-set-theme-light');
     const linkDark = document.querySelector('.js-set-theme-dark');
 
-    if (!toggleButton || !linkLight || !linkDark) {
-      return;
+    if (toggleButton && linkLight && linkDark) {
+      function isDarkMode() {
+        if (typeof window === 'undefined') {
+          return false;
+        }
+        const stored = localStorage.getItem('wcTheme');
+        if (stored === '1') {
+          return true;
+        }
+        if (stored === '0') {
+          return false;
+        }
+        return document.body.classList.contains('dark');
+      }
+
+      function updateToggleState(dark) {
+        toggleButton.setAttribute('aria-pressed', dark ? 'true' : 'false');
+        toggleButton.dataset.theme = dark ? 'dark' : 'light';
+      }
+
+      toggleButton.addEventListener('click', function (event) {
+        event.preventDefault();
+        const dark = isDarkMode();
+        if (dark) {
+          linkLight.click();
+        } else {
+          linkDark.click();
+        }
+      });
+
+      document.addEventListener('wcThemeChange', function (event) {
+        const resolver = event.detail && event.detail.isDarkTheme;
+        const dark = typeof resolver === 'function' ? resolver() : document.body.classList.contains('dark');
+        updateToggleState(dark);
+      });
+
+      updateToggleState(isDarkMode());
     }
 
-    function isDarkMode() {
-      if (typeof window === 'undefined') {
-        return false;
+    const historySupported = typeof window !== 'undefined' && window.history && typeof window.history.replaceState === 'function';
+    const navLinks = Array.from(document.querySelectorAll('#navbar-main a.nav-link[data-target]'));
+    let currentHash = historySupported ? (window.location.hash || '') : '';
+    const replaceHash = function (hash) {
+      if (!historySupported || !hash || hash === currentHash) {
+        return;
       }
-      const stored = localStorage.getItem('wcTheme');
-      if (stored === '1') {
-        return true;
+      currentHash = hash;
+      window.history.replaceState(null, '', hash);
+    };
+
+    if (historySupported && navLinks.length) {
+      let manualHashUpdate = false;
+      const pauseObserverUpdates = function () {
+        manualHashUpdate = true;
+        window.setTimeout(function () {
+          manualHashUpdate = false;
+        }, 800);
+      };
+
+      navLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+          const hash = link.dataset.target || (link.hash || '');
+          if (hash) {
+            replaceHash(hash);
+            pauseObserverUpdates();
+          }
+        });
+      });
+
+      const sectionMap = new Map();
+      navLinks.forEach(function (link) {
+        const hash = link.dataset.target || (link.hash || '');
+        if (!hash || hash.charAt(0) !== '#') {
+          return;
+        }
+        const id = hash.slice(1);
+        if (sectionMap.has(id)) {
+          return;
+        }
+        const sectionEl = document.getElementById(id);
+        if (sectionEl) {
+          sectionMap.set(id, {
+            hash: hash,
+            element: sectionEl
+          });
+        }
+      });
+      const sections = Array.from(sectionMap.values());
+
+      if (sections.length && 'IntersectionObserver' in window) {
+        const observerOptions = {
+          rootMargin: '-60% 0px -35% 0px',
+          threshold: 0
+        };
+        const observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting || manualHashUpdate) {
+              return;
+            }
+            const newHash = '#' + entry.target.id;
+            replaceHash(newHash);
+          });
+        }, observerOptions);
+        sections.forEach(function (section) {
+          observer.observe(section.element);
+        });
+      } else if (sections.length) {
+        const getSectionForScroll = function () {
+          const scrollPosition = window.scrollY + 140;
+          let candidate = null;
+          let candidateTop = -Infinity;
+          sections.forEach(function (section) {
+            const rect = section.element.getBoundingClientRect();
+            const top = rect.top + window.scrollY;
+            if (top <= scrollPosition && top > candidateTop) {
+              candidate = section;
+              candidateTop = top;
+            }
+          });
+          if (!candidate) {
+            candidate = sections[0];
+          }
+          return candidate;
+        };
+        const updateHashFromScroll = function () {
+          if (manualHashUpdate) {
+            return;
+          }
+          const section = getSectionForScroll();
+          if (section) {
+            replaceHash(section.hash);
+          }
+        };
+        window.addEventListener('scroll', function () {
+          window.requestAnimationFrame(updateHashFromScroll);
+        }, { passive: true });
+        window.addEventListener('resize', function () {
+          window.requestAnimationFrame(updateHashFromScroll);
+        });
+        updateHashFromScroll();
       }
-      if (stored === '0') {
-        return false;
-      }
-      return document.body.classList.contains('dark');
     }
 
-    function updateToggleState(dark) {
-      toggleButton.setAttribute('aria-pressed', dark ? 'true' : 'false');
-      toggleButton.dataset.theme = dark ? 'dark' : 'light';
+    const langToggle = document.querySelector('.js-lang-toggle');
+    const langScrollKey = 'wc-lang-scroll';
+    const saveScrollPosition = function () {
+      if (typeof window === 'undefined' || !window.sessionStorage) {
+        return;
+      }
+      try {
+        const scrollTop = window.scrollY || window.pageYOffset || 0;
+        window.sessionStorage.setItem(langScrollKey, JSON.stringify({ top: scrollTop }));
+      } catch (error) {
+        /* ignore storage errors */
+      }
+    };
+
+    const restoreScrollPosition = function () {
+      if (typeof window === 'undefined' || !window.sessionStorage) {
+        return;
+      }
+      let stored;
+      try {
+        stored = window.sessionStorage.getItem(langScrollKey);
+        if (stored) {
+          window.sessionStorage.removeItem(langScrollKey);
+        }
+      } catch (error) {
+        stored = null;
+      }
+      if (!stored) {
+        return;
+      }
+      try {
+        const parsed = JSON.parse(stored);
+        if (parsed && typeof parsed.top === 'number') {
+          window.requestAnimationFrame(function () {
+            window.scrollTo(0, parsed.top);
+          });
+        }
+      } catch (error) {
+        /* ignore parse errors */
+      }
+    };
+
+    if (langToggle) {
+      langToggle.addEventListener('change', function () {
+        if (langToggle.disabled) {
+          return;
+        }
+        const targetUrl = langToggle.checked ? langToggle.dataset.langEn : langToggle.dataset.langJa;
+        if (!targetUrl) {
+          return;
+        }
+        let nextUrl = targetUrl;
+        const currentHash = window.location.hash;
+        if (currentHash && nextUrl.indexOf('#') === -1) {
+          nextUrl += currentHash;
+        }
+        saveScrollPosition();
+        window.location.href = nextUrl;
+      });
     }
 
-    toggleButton.addEventListener('click', function (event) {
-      event.preventDefault();
-      const dark = isDarkMode();
-      if (dark) {
-        linkLight.click();
-      } else {
-        linkDark.click();
-      }
-    });
-
-    document.addEventListener('wcThemeChange', function (event) {
-      const resolver = event.detail && event.detail.isDarkTheme;
-      const dark = typeof resolver === 'function' ? resolver() : document.body.classList.contains('dark');
-      updateToggleState(dark);
-    });
-
-    updateToggleState(isDarkMode());
+    restoreScrollPosition();
   });
 </script>

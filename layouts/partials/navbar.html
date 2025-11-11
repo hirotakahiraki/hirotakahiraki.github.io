@@ -220,13 +220,12 @@
           <label class="lang-toggle__switch mb-0">
             <input
               type="checkbox"
-              class="lang-toggle__checkbox"
+              class="lang-toggle__checkbox js-lang-toggle"
               name="lang-toggle"
               {{ if eq $current_page.Lang "en" }}checked{{ end }}
               {{ if not $has_switch }}disabled{{ end }}
               data-lang-en="{{ $lang_en_url }}"
-              data-lang-ja="{{ $lang_ja_url }}"
-              onchange="if(!this.disabled){var url = this.checked ? this.dataset.langEn : this.dataset.langJa; if(url){ window.location.href = url; }}">
+              data-lang-ja="{{ $lang_ja_url }}">
             <span class="lang-toggle__slider" aria-hidden="true"></span>
           </label>
           <span class="lang-toggle__label ml-2">
