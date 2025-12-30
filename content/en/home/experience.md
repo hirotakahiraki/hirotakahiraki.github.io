@@ -22,6 +22,15 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Research Intern
+    company: Paul G. Allen School of Computer Science & Engineering, University of Washington
+    company_url: 'https://www.cs.washington.edu/'
+    company_logo: W-Logo_Purple_vector
+    location: Seattle, WA, USA
+    date_start: '2025-12-01'
+    # date_end:
+    description: Research Intern at Paul G. Allen School of Computer Science & Engineering
+
   - title:  Research Project Leader
     company: JST ACT-X
     company_url: https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html
