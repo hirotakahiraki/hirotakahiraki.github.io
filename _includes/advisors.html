@@ -1,0 +1,3 @@
+{% if include.advisors %}
+<p class="advisor-list">{{ t.advised_by }}: {% for advisor in include.advisors %}{% if advisor.url %}<a href="{{ advisor.url }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}{% unless forloop.last %}{% if page.lang == 'ja' %}、{% else %}, {% endif %}{% endunless %}{% endfor %}</p>
+{% endif %}

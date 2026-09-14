@@ -32,5 +32,7 @@ Updated September 15, 2026. These notes and the original Word documents are excl
 - September 2026: received a Ph.D. in Interdisciplinary Information Studies from the Graduate School of Interdisciplinary Information Studies, the University of Tokyo. This replaces the earlier doctoral-student status.
 - The IPSJ Yamashita Memorial Research Award was received in March 2026. Both News and Awards use the actual receipt date; the 2025 award-list URL remains the supporting announcement.
 - Google Scholar: https://scholar.google.co.jp/citations?user=BkvyB-YAAAAJ
-- The UW entry records the known start in December 2025 without asserting a current affiliation or inventing an end month.
+- The owner confirmed the official UW activity period as December 2025–May 2026; both language versions now record these start and end months.
 - News is shown in full, with compact spacing. CV links use the label “CV”; the laboratory link is removed from the profile and sidebar.
+- Doctoral advisors: Jun Rekimoto and Yoshio Ishiguro. UW advisor: [Shyam Gollakota](https://homes.cs.washington.edu/~gshyam/), as explicitly provided by the owner. The profile describes both AIST and UW CSE as past research experience.
+- X handle corrected to `hirotakahiraki`; Facebook remains a separate existing account.

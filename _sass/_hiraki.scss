@@ -93,6 +93,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
   strong, span, a { display: block; }
   p { margin: 5px 0 0; font-size: .85em; opacity: .75; }
 }
+.profile-timeline .advisor-list a { display: inline; }
 .page__content .award-list { list-style: none; padding: 0; }
 .award-list li {
   display: grid; grid-template-columns: 50px 1fr; gap: 25px;

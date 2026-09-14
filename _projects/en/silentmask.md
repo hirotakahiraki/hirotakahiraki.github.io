@@ -25,7 +25,7 @@
     }
   ],
   "year": 2021,
-  "order": 3,
+  "order": 6,
   "og_image": "projects/silentmask.jpg"
 }
 ---

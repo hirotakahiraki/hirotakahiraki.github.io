@@ -26,7 +26,8 @@
     "empty": "No publications match your search.",
     "clear": "Clear filters",
     "news": "News",
-    "support": "Grants & scholarships"
+    "support": "Grants & scholarships",
+    "advised_by": "Advised by"
   },
   "ja": {
     "about": "プロフィール",
@@ -55,6 +56,7 @@
     "empty": "条件に一致する論文・発表はありません。",
     "clear": "絞り込みを解除",
     "news": "ニュース",
-    "support": "研究助成・奨学金"
+    "support": "研究助成・奨学金",
+    "advised_by": "指導教員"
   }
 }

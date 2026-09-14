@@ -25,7 +25,7 @@
     }
   ],
   "year": 2022,
-  "order": 2,
+  "order": 5,
   "og_image": "projects/epose.jpg"
 }
 ---

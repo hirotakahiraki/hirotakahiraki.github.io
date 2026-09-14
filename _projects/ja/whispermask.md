@@ -25,7 +25,7 @@
     }
   ],
   "year": 2024,
-  "order": 0,
+  "order": 3,
   "og_image": "projects/whispermask.jpg"
 }
 ---

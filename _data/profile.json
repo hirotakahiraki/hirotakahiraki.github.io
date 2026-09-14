@@ -4,7 +4,15 @@
       {
         "course": "Ph.D. in Interdisciplinary Information Studies",
         "institution": "Graduate School of Interdisciplinary Information Studies, The University of Tokyo",
-        "year": "2022.04 — 2026.09"
+        "year": "2022.04 — 2026.09",
+        "advisors": [
+          {
+            "name": "Jun Rekimoto"
+          },
+          {
+            "name": "Yoshio Ishiguro"
+          }
+        ]
       },
       {
         "course": "Master’s degree in Interdisciplinary Information Studies (Applied Computer Science)",
@@ -40,7 +48,14 @@
         "company_logo": "W-Logo_Purple_vector",
         "location": "Seattle, WA, USA",
         "date_start": "2025-12",
-        "date_note": "Joined 2025.12"
+        "date_note": "Joined 2025.12 — 2026.05",
+        "advisors": [
+          {
+            "name": "Shyam Gollakota",
+            "url": "https://homes.cs.washington.edu/~gshyam/"
+          }
+        ],
+        "date_end": "2026-05"
       },
       {
         "title": "Individual Researcher",
@@ -181,7 +196,15 @@
       {
         "course": "博士（学際情報学）",
         "institution": "東京大学大学院 学際情報学府",
-        "year": "2022.04 — 2026.09"
+        "year": "2022.04 — 2026.09",
+        "advisors": [
+          {
+            "name": "暦本純一"
+          },
+          {
+            "name": "石黒祥生"
+          }
+        ]
       },
       {
         "course": "修士（学際情報学）・総合分析情報学コース",
@@ -217,7 +240,14 @@
         "company_logo": "W-Logo_Purple_vector",
         "location": "Seattle, WA, USA",
         "date_start": "2025-12",
-        "date_note": "2025.12 参加"
+        "date_note": "2025.12 — 2026.05",
+        "advisors": [
+          {
+            "name": "Shyam Gollakota",
+            "url": "https://homes.cs.washington.edu/~gshyam/"
+          }
+        ],
+        "date_end": "2026-05"
       },
       {
         "title": "個人研究者",

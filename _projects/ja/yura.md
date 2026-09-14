@@ -37,7 +37,7 @@
     }
   ],
   "year": 2022,
-  "order": 4,
+  "order": 7,
   "og_image": "projects/yura.jpg"
 }
 ---
