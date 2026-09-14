@@ -1,0 +1,77 @@
+[
+  {
+    "id": "maskclip-itmedia-2025",
+    "date": "2025-11-04",
+    "url": "https://www.itmedia.co.jp/news/articles/2511/04/news024.html",
+    "type": "internet",
+    "language": "ja",
+    "en": {
+      "title": "MaskClip turns a face mask into a microphone, with potential applications in healthcare",
+      "publisher": "ITmedia NEWS"
+    },
+    "ja": {
+      "title": "“マスク”を“マイク”にするクリップ「MaskClip」 東大などが開発 医療現場などでの活用に期待",
+      "publisher": "ITmedia NEWS"
+    }
+  },
+  {
+    "id": "ceatec-nikkei-2025",
+    "date": "2025-10-07",
+    "url": "https://www.nikkei.com/article/DGXZQOUC0715X0X01C25A0000000/",
+    "type": "paper",
+    "language": "ja",
+    "en": {
+      "title": "CEATEC draws 810 exhibitors, its third-largest turnout; ministerial awards go to Sharp and NTT DOCOMO",
+      "publisher": "Nikkei"
+    },
+    "ja": {
+      "title": "CEATEC、過去3番目の出展数810社･団体 大臣賞にシャープやドコモ",
+      "publisher": "日本経済新聞"
+    }
+  },
+  {
+    "id": "clothtalk-itmedia-2025",
+    "date": "2025-03",
+    "url": "https://www.itmedia.co.jp/news/articles/2503/17/news067.html",
+    "type": "internet",
+    "language": "ja",
+    "en": {
+      "title": "ClothTalk: a fabric microphone that captures clear speech even in very noisy environments",
+      "publisher": "ITmedia NEWS"
+    },
+    "ja": {
+      "title": "かなりうるさい環境でも、その人の声だけを高品質に拾う布マイク「ClothTalk」 東大と産総研などが開発",
+      "publisher": "ITmedia NEWS"
+    }
+  },
+  {
+    "id": "dyson-prtimes-2024",
+    "date": "2024-09",
+    "url": "https://prtimes.jp/main/html/rd/p/000000146.000042335.html",
+    "type": "internet",
+    "language": "ja",
+    "en": {
+      "title": "University of Tokyo student wins Japan’s top prize in the James Dyson Award 2024",
+      "publisher": "Dyson / PR TIMES"
+    },
+    "ja": {
+      "title": "ダイソン国際デザイン・エンジニアリングアワード2024、日本国内最優秀賞は東京大学の学生が受賞",
+      "publisher": "ダイソン株式会社 / PR TIMES"
+    }
+  },
+  {
+    "id": "emask-itmedia-2022",
+    "date": "2022-04",
+    "url": "https://www.itmedia.co.jp/news/articles/2204/28/news063.html",
+    "type": "internet",
+    "language": "ja",
+    "en": {
+      "title": "A mask that recognizes silently mouthed speech with around 80% accuracy",
+      "publisher": "ITmedia NEWS"
+    },
+    "ja": {
+      "title": "口パクで音声入力できるマスク、東大などが開発 約8割の精度で音声を認識",
+      "publisher": "ITmedia NEWS"
+    }
+  }
+]

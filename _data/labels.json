@@ -17,17 +17,15 @@
     "details": "Project details",
     "back": "Back to projects",
     "research": "Research interests",
-    "all": "All",
-    "peer_reviewed": "Journal & conference papers",
-    "semi_archival": "Posters & demos",
-    "domestic": "Domestic publications",
-    "search": "Search title, author, or venue",
-    "results": "publications",
-    "empty": "No publications match your search.",
-    "clear": "Clear filters",
     "news": "News",
     "support": "Grants & scholarships",
-    "advised_by": "Advised by"
+    "advised_by": "Advised by",
+    "media": "Media",
+    "media_types": {
+      "internet": "Online media",
+      "paper": "Newspaper"
+    },
+    "media_language": "In Japanese"
   },
   "ja": {
     "about": "プロフィール",
@@ -47,16 +45,14 @@
     "details": "研究の詳細",
     "back": "研究一覧に戻る",
     "research": "研究分野",
-    "all": "すべて",
-    "peer_reviewed": "学術誌・国際学会",
-    "semi_archival": "ポスター・デモ",
-    "domestic": "国内学会",
-    "search": "タイトル・著者・発表先で検索",
-    "results": "件の論文・発表",
-    "empty": "条件に一致する論文・発表はありません。",
-    "clear": "絞り込みを解除",
     "news": "ニュース",
     "support": "研究助成・奨学金",
-    "advised_by": "指導教員"
+    "advised_by": "指導教員",
+    "media": "メディア掲載",
+    "media_types": {
+      "internet": "Webメディア",
+      "paper": "新聞"
+    },
+    "media_language": "日本語"
   }
 }

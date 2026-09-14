@@ -6,4 +6,5 @@
 <ul class="recent-papers">{% for item in recent limit:3 %}<li><span class="paper-year">{{ item.year }}</span><div><a href="{{ item.url }}"><strong>{{ item.title | split: ':' | first }}</strong>: {{ item.title | split: ':' | last }}</a><small>{{ item.venue }} · {{ item.year }}</small></div></li>{% endfor %}</ul>
 <p class="section-more"><a href="{% if page.lang == 'ja' %}{{ '/ja/publications/' | relative_url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}">{{ t.all_publications }} ↗</a></p></section>
 <section id="projects"><h2>{{ t.projects }}</h2>{% include projects.html %}</section>
+{% include media.html %}
 <section id="contact"><h2>{{ t.contact }}</h2><p>{% if page.lang == 'ja' %}研究についてのご質問や共同研究のご相談は、メールにてお気軽にご連絡ください。{% else %}For questions about my research or potential collaborations, please get in touch by email.{% endif %}</p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></section>

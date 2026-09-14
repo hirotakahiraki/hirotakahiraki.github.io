@@ -23,6 +23,7 @@ bundle exec jekyll serve --livereload
 | --- | --- |
 | Profile and page introductions | `_pages/en/` and `_pages/ja/` |
 | News (shared dates, English and Japanese text) | `_data/news.json` |
+| Media coverage (dates, article URLs, localized titles and publishers) | `_data/media.json` |
 | Sidebar identity and links | `_data/authors.json` |
 | Projects and descriptions | `_projects/en/` and `_projects/ja/` |
 | Publications (shared citation format, localized categories) | `_data/publications.json` |
@@ -49,6 +50,6 @@ GitHub Actions runs the same checks on the trial branch. Public deployment is re
 
 ## Theme provenance
 
-The actual AcademicPages templates, Sass, JavaScript, icons, and fonts were imported from upstream commit `c77da751a8124450d5fb818056c0cf081fea08e1` (September 15, 2026). This is a Jekyll migration, with small additions for bilingual navigation, project cards, and publication search. The Hugo implementation was removed from the trial branch.
+The actual AcademicPages templates, Sass, JavaScript, icons, and fonts were imported from upstream commit `c77da751a8124450d5fb818056c0cf081fea08e1` (September 15, 2026). This is a Jekyll migration, with small additions for bilingual navigation, project cards, news, and media coverage. Publications are displayed directly by category. The Hugo implementation was removed from the trial branch.
 
 Upstream license: `licenses/AcademicPages-MIT.txt`.

@@ -1,0 +1,14 @@
+<section id="media" aria-labelledby="media-heading">
+  <h2 id="media-heading">{{ t.media }}</h2>
+  <ul class="media-list">
+    {% for item in site.data.media %}
+      <li data-media="{{ item.id }}">
+        <time datetime="{{ item.date }}">{{ item.date | replace: '-', '.' }}</time>
+        <div>
+          <a href="{{ item.url }}">{{ item[page.lang].title | escape }}</a>
+          <small>{{ item[page.lang].publisher | escape }} · {{ t.media_types[item.type] }}{% if page.lang != item.language %} · {{ t.media_language }}{% endif %}</small>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

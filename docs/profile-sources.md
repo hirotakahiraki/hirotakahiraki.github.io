@@ -36,3 +36,8 @@ Updated September 15, 2026. These notes and the original Word documents are excl
 - News is shown in full, with compact spacing. CV links use the label “CV”; the laboratory link is removed from the profile and sidebar.
 - Doctoral advisors: Jun Rekimoto and Yoshio Ishiguro. UW advisor: [Shyam Gollakota](https://homes.cs.washington.edu/~gshyam/), as explicitly provided by the owner. The profile describes both AIST and UW CSE as past research experience.
 - X handle corrected to `hirotakahiraki`; Facebook remains a separate existing account.
+- Contact email updated to `hirotakahiraki@gmail.com`. SB Intuitions links use `/en/` on English pages and the root URL on Japanese pages.
+
+## Media coverage
+
+The five entries in `_data/media.json` come from the public researchmap `media_coverage` records: 51604172 (MaskClip / ITmedia), 51604174 (CEATEC / Nikkei), 49715951 (ClothTalk / ITmedia), 49715940 (Dyson / PR TIMES), and 49716002 (E-MASK / ITmedia). Article URLs and publication-date precision are preserved. Japanese titles follow the supplied records; English titles are translations, with links identified as Japanese-language articles. Publisher names are normalized to avoid duplicated or misspelled company names. The Nikkei URL was retrieved from researchmap; its article body was not accessible to the web reader.
