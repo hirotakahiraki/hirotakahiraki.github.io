@@ -38,6 +38,11 @@ Updated September 15, 2026. These notes and the original Word documents are excl
 - X handle corrected to `hirotakahiraki`; Facebook remains a separate existing account.
 - Contact email updated to `hirotakahiraki@gmail.com`. SB Intuitions links use `/en/` on English pages and the root URL on Japanese pages.
 - Advisor names now link to [Rekimoto Lab](https://lab.rekimoto.org/) and [Ishiguro Lab](https://ishiguro-lab.org/), as requested by the owner. ACT-X references in the profile, news, experience, and support entries use the owner’s [official project detail link](https://www.jst.go.jp/kisoken/act-x/project/111F005/111F005_2023.html#anchor-16).
+- April 2025–present: Technical Advisor at [株式会社東京医歯学総合研究所](https://tokyomdlabo.com/). The English company name, Tokyo Ishigaku Sogo Kenkyujo, K.K., follows the company website footer.
+- Master’s advisor: Jun Rekimoto (暦本純一). Undergraduate advisors: Hiroshi Esaki (江崎浩) and Hideya Ochiai (落合秀也), both linked to [Esaki & Ochiai Lab](https://www.hongo.wide.ad.jp/en/) as supplied by the owner.
+- The sidebar email link is removed; the profile’s Contact section retains the email address.
+- The profile introduces past research roles in UW CSE → AIST → ACT-X order. It uses the owner’s shorter “Research Intern” wording for UW; the dated experience entry retains the official “Research Scholar (Internship)” title. The Japanese SB Intuitions news entry says “Join しました,” as requested.
+- The owner requested a formal biographical style modeled on the supplied Jun Rekimoto biography. Japanese profile prose uses plain/declarative endings; English uses third person. Representative projects and selected awards are drawn from the existing project and award records. News remains in its existing announcement style.
 
 ## Media coverage
 

@@ -19,12 +19,28 @@
       {
         "course": "Master’s degree in Interdisciplinary Information Studies (Applied Computer Science)",
         "institution": "The University of Tokyo",
-        "year": "2020 — 2022"
+        "year": "2020 — 2022",
+        "advisors": [
+          {
+            "name": "Jun Rekimoto",
+            "url": "https://lab.rekimoto.org/"
+          }
+        ]
       },
       {
         "course": "B.Eng., Information and Communication Engineering",
         "institution": "The University of Tokyo",
-        "year": "2016 — 2020"
+        "year": "2016 — 2020",
+        "advisors": [
+          {
+            "name": "Hiroshi Esaki",
+            "url": "https://www.hongo.wide.ad.jp/en/"
+          },
+          {
+            "name": "Hideya Ochiai",
+            "url": "https://www.hongo.wide.ad.jp/en/"
+          }
+        ]
       }
     ],
     "experience": [
@@ -58,6 +74,12 @@
           }
         ],
         "date_end": "2026-05"
+      },
+      {
+        "title": "Technical Advisor",
+        "company": "Tokyo Ishigaku Sogo Kenkyujo, K.K.",
+        "company_url": "https://tokyomdlabo.com/",
+        "date_start": "2025-04"
       },
       {
         "title": "Individual Researcher",
@@ -215,12 +237,28 @@
       {
         "course": "修士（学際情報学）・総合分析情報学コース",
         "institution": "東京大学",
-        "year": "2020 — 2022"
+        "year": "2020 — 2022",
+        "advisors": [
+          {
+            "name": "暦本純一",
+            "url": "https://lab.rekimoto.org/"
+          }
+        ]
       },
       {
         "course": "学士（工学）・工学部電子情報工学科",
         "institution": "東京大学",
-        "year": "2016 — 2020"
+        "year": "2016 — 2020",
+        "advisors": [
+          {
+            "name": "江崎浩",
+            "url": "https://www.hongo.wide.ad.jp/en/"
+          },
+          {
+            "name": "落合秀也",
+            "url": "https://www.hongo.wide.ad.jp/en/"
+          }
+        ]
       }
     ],
     "experience": [
@@ -254,6 +292,12 @@
           }
         ],
         "date_end": "2026-05"
+      },
+      {
+        "title": "技術アドバイザー",
+        "company": "株式会社東京医歯学総合研究所",
+        "company_url": "https://tokyomdlabo.com/",
+        "date_start": "2025-04"
       },
       {
         "title": "個人研究者",
