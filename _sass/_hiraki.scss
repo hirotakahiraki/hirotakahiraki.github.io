@@ -24,10 +24,11 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .masthead { border-bottom: 1px solid var(--global-border-color); }
 .masthead__inner-wrap { max-width: 1200px; }
 .greedy-nav .visible-links .language-navigation {
-  display: flex; align-items: center; margin-left: 16px; font-size: 13px;
-  a { padding: 7px; margin: 0; }
+  font-size: inherit;
+  .language-switch { display: flex; align-items: baseline; gap: .4em; padding: 0 1rem; }
+  a { padding: .5rem 0; margin: 0; font-size: inherit; line-height: inherit; }
   a[aria-current="page"] { color: var(--global-link-color); font-weight: 700; }
-  span { opacity: .35; }
+  span { opacity: .5; }
 }
 .author__avatar img { border-radius: 50%; }
 .author__name { margin-bottom: 4px; font-size: 1.25em; }
@@ -121,7 +122,11 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .page__footer-copyright { line-height: 1.8; }
 @media (min-width: 1024px) {
   #main { max-width: 1200px; }
-  .sidebar { position: sticky; top: 95px; height: auto; padding-top: 0; opacity: 1; max-height: calc(100vh - 115px); overflow-y: auto; }
+  .sidebar {
+    position: static; top: auto; height: auto; max-height: none; overflow: visible; opacity: 1;
+    // Override the fixed-sidebar spacing injected by the theme's navigation script.
+    padding-top: 0 !important;
+  }
   .page { padding-right: 1.5em; }
   .author__avatar img { max-width: 175px; }
 }
@@ -131,7 +136,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
   .research-card p { font-size: .85em; }
   .research-links { font-size: .8em; }
   .profile-timeline > div { grid-template-columns: 115px 1fr; gap: 18px; }
-  .greedy-nav .visible-links .language-navigation { margin-left: 4px; }
   .author__alternate { margin-bottom: 8px; }
 }
 @media (max-width: 480px) {
@@ -140,7 +144,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
   .research-grid { grid-template-columns: 1fr; }
   .profile-timeline > div { grid-template-columns: 1fr; gap: 5px; }
   .publication-item { grid-template-columns: 34px minmax(0, 1fr); gap: 12px; }
-  .greedy-nav .visible-links .language-navigation a { padding: 5px; font-size: 12px; }
+  .greedy-nav .visible-links .masthead__menu-item--lg { padding-right: .5rem; }
+  .greedy-nav .visible-links .language-navigation .language-switch { padding: 0 .25rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
