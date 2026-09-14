@@ -8,7 +8,12 @@ html[data-theme="dark"] {
   --global-link-color-visited: #75c5d8;
 }
 html { scroll-behavior: smooth; scroll-padding-top: 95px; }
-body { line-height: 1.8; }
+body {
+  line-height: 1.8;
+  padding-bottom: 0;
+  // The theme script reserves space for a fixed footer; this footer scrolls with the page.
+  margin-bottom: 0 !important;
+}
 [hidden] { display: none !important; }
 a { text-underline-offset: 3px; }
 a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
@@ -121,6 +126,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
   .citation { font-size: .72em; line-height: 1.8; margin: 0; overflow-wrap: anywhere; }
 }
 .publication-subtitle { font-size: .8em; }
+.page__footer { position: static; bottom: auto; float: none; }
 .page__footer-copyright { line-height: 1.8; }
 @media (min-width: 1024px) {
   #main { max-width: 1200px; }
