@@ -1,0 +1,3 @@
+{% assign t = site.data.labels[page.lang] %}{% assign profile = site.data.profile[page.lang] %}
+<dl class="profile-timeline">{% for item in profile.experience %}<div><dt>{{ item.date_start | date: '%Y.%m' }} — {% if item.date_end %}{{ item.date_end | date: '%Y.%m' }}{% else %}{{ t.present }}{% endif %}</dt><dd><strong>{{ item.title }}</strong><a href="{{ item.company_url }}">{{ item.company }}</a>{% if item.description and item.description != item.title %}<p>{{ item.description }}</p>{% endif %}</dd></div>{% endfor %}</dl>
+<h2>{{ t.education }}</h2><dl class="profile-timeline">{% for item in profile.education %}<div><dt>{{ item.year }}</dt><dd><strong>{{ item.course }}</strong><span>{{ item.institution }}</span></dd></div>{% endfor %}</dl>

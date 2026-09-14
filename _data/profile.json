@@ -1,0 +1,277 @@
+{
+  "en": {
+    "education": [
+      {
+        "course": "PhD course in Applied Computer Science",
+        "institution": "The University of Tokyo",
+        "year": "2022 - current"
+      },
+      {
+        "course": "MEng in Applied Computer Science",
+        "institution": "The University of Tokyo",
+        "year": 2022
+      },
+      {
+        "course": "BSc in Engineering",
+        "institution": "The University of Tokyo",
+        "year": 2020
+      }
+    ],
+    "experience": [
+      {
+        "title": "Research Intern",
+        "company": "Paul G. Allen School of Computer Science & Engineering, University of Washington",
+        "company_url": "https://www.cs.washington.edu/",
+        "company_logo": "W-Logo_Purple_vector",
+        "location": "Seattle, WA, USA",
+        "date_start": "2025-12-01",
+        "description": "Research Intern at Paul G. Allen School of Computer Science & Engineering"
+      },
+      {
+        "title": "Research Project Leader",
+        "company": "JST ACT-X",
+        "company_url": "https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html",
+        "company_logo": "jst",
+        "location": "Tokyo, Japan",
+        "date_start": "2023-10-01",
+        "description": "JST ACT-X Research Project Leader"
+      },
+      {
+        "title": "Research Assistant",
+        "company": "National Institute of Advanced Industrial Science and Technology",
+        "company_url": "https://unit.aist.go.jp/harc/en/index.html",
+        "company_logo": "aist",
+        "location": "Chiba, Japan",
+        "date_start": "2021-04-01",
+        "description": "Research Assistant at Organization of Human Augmentation Research Center"
+      },
+      {
+        "title": "Creator",
+        "company": "IPA Exploratory IT Human Resources Project 2021",
+        "company_url": "https://www.ipa.go.jp/english/humandev/third.html",
+        "company_logo": "mitou",
+        "location": "Tokyo, Japan",
+        "date_start": "2021-07-01",
+        "date_end": "2022-03-10",
+        "description": "Software Engineer, Hardware Engineer, and Designer"
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Yoshidumi. Inc",
+        "company_url": "https://www.yoshidumi.com/",
+        "company_logo": "yoshidumi",
+        "location": "Tokyo, Japan",
+        "date_start": "2017-08-01",
+        "date_end": "2021-09-30",
+        "description": "Backend Engineer and Web Writer"
+      }
+    ],
+    "awards": [
+      {
+        "title": "CEATEC AWARD 2025 Digital Minister's Award",
+        "year": "2025"
+      },
+      {
+        "title": "Information Processing Society of Japan (IPSJ) Yamashita Memorial Research Award",
+        "year": "2025"
+      },
+      {
+        "title": "IPSJ Interaction 2025 Best Paper, Best Presentation, and Interactive Presentation Awards",
+        "year": "2025"
+      },
+      {
+        "title": "Acoustical Society of Japan 29th Autumn Meeting Student Outstanding Presentation Award",
+        "year": "2025"
+      },
+      {
+        "title": "James Dyson Award 2024 Japan National Winner",
+        "year": "2024"
+      },
+      {
+        "title": "Best Paper Honorable Mention Award at Augmented Humans 2024 (AHs24)",
+        "year": "2024"
+      },
+      {
+        "title": "GUGEN 2024 Good Idea Award and two additional prizes",
+        "year": "2024"
+      },
+      {
+        "title": "IPSJ UBI Technical Committee #84 Student Outstanding Presentation Award",
+        "year": "2024"
+      },
+      {
+        "title": "The University of Tokyo, GSII, Major Award, Best Master's Thesis",
+        "year": "2022"
+      },
+      {
+        "title": "Good Design New Hope Award, Honorable mention",
+        "year": "2022"
+      },
+      {
+        "title": "Japan Industry Designer's Association Next Age Award",
+        "year": "2022"
+      },
+      {
+        "title": "Demo Award at Workshop on Interactive Systems and Software (Domestic Conference)",
+        "year": "2022"
+      },
+      {
+        "title": "Information-technology Promotion Agency (IPA) MITOU Program",
+        "year": "2021"
+      },
+      {
+        "title": "The University of Tokyo PhD Fellowship",
+        "year": "2021"
+      },
+      {
+        "title": "Best Presentation Award at Silent Speech Recognition Workshop (Domestic Workshop)",
+        "year": "2021"
+      },
+      {
+        "title": "Best Presentation Award at Institute of Environmental Art and Design (Domestic Conference)",
+        "year": "2021"
+      },
+      {
+        "title": "The University of Tokyo Hongo Tech Garage Spring Founder Program",
+        "year": "2021"
+      }
+    ]
+  },
+  "ja": {
+    "education": [
+      {
+        "course": "学際情報学府 学際情報学専攻 総合分析情報学府コース 博士課程",
+        "institution": "東京大学",
+        "year": "2022 -"
+      },
+      {
+        "course": "学際情報学府 学際情報学専攻 総合分析情報学府コース 修士課程",
+        "institution": "東京大学",
+        "year": 2022
+      },
+      {
+        "course": "工学部電子情報工学科",
+        "institution": "東京大学",
+        "year": 2020
+      }
+    ],
+    "experience": [
+      {
+        "title": "Research Intern",
+        "company": "Paul G. Allen School of Computer Science & Engineering, University of Washington",
+        "company_url": "https://www.cs.washington.edu/",
+        "company_logo": "W-Logo_Purple_vector",
+        "location": "Seattle, WA, USA",
+        "date_start": "2025-12-01",
+        "description": "Paul G. Allen School of Computer Science & Engineering リサーチインターン"
+      },
+      {
+        "title": "研究代表",
+        "company": "JST ACT-X",
+        "company_url": "https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html",
+        "company_logo": "jst",
+        "date_start": "2023-10-01",
+        "description": "JST ACT-X リアル空間を強靭にするハードウェアの未来 研究代表"
+      },
+      {
+        "title": "リサーチアシスタント",
+        "company": "産業技術総合研究所",
+        "company_url": "https://unit.aist.go.jp/harc/update.html",
+        "company_logo": "aist",
+        "location": "千葉",
+        "date_start": "2021-04-01",
+        "description": "産業技術総合研究所人間拡張センター リサーチアシスタント"
+      },
+      {
+        "title": "クリエイター",
+        "company": "2021年度 IPA 未踏人材発掘・育成事業",
+        "company_url": "https://www.ipa.go.jp/jinzai/mitou/2021/seika.html",
+        "company_logo": "mitou",
+        "location": "Tokyo, Japan",
+        "date_start": "2021-07-01",
+        "date_end": "2022-03-10",
+        "description": "ソフトウェアエンジニア・ハードウェアエンジニア・デザイナー"
+      },
+      {
+        "title": "ソフトウェアエンジニア",
+        "company": "Yoshidumi. Inc",
+        "company_url": "https://www.yoshidumi.com/",
+        "company_logo": "yoshidumi",
+        "location": "Tokyo, Japan",
+        "date_start": "2017-08-01",
+        "date_end": "2021-09-30",
+        "description": "バックエンドエンジニア・ウェブライター"
+      }
+    ],
+    "awards": [
+      {
+        "title": "CEATEC AWARD 2025 デジタル大臣賞",
+        "year": "2025"
+      },
+      {
+        "title": "情報処理学会 山下記念研究賞",
+        "year": "2025"
+      },
+      {
+        "title": "情報処理学会 インタラクション2025 最優秀論文賞・最優秀発表賞・インタラクティブ発表賞",
+        "year": "2025"
+      },
+      {
+        "title": "日本音響学会 第29回秋季研究発表会 学生優秀発表賞",
+        "year": "2025"
+      },
+      {
+        "title": "James Dyson Award 2024 国内最優秀賞",
+        "year": "2024"
+      },
+      {
+        "title": "Best Paper Honorable Mention Award, Augmented Humans 2024 (AHs24)",
+        "year": "2024"
+      },
+      {
+        "title": "GUGEN 2024 Good Idea賞など3件受賞(最多受賞)",
+        "year": "2024"
+      },
+      {
+        "title": "情報処理学会 第84回UBI研究会 学生優秀発表賞",
+        "year": "2024"
+      },
+      {
+        "title": "東京大学学際情報学府 専攻長賞",
+        "year": "2022"
+      },
+      {
+        "title": "グッドデザインニューホープ賞",
+        "year": "2022"
+      },
+      {
+        "title": "JID Next Age賞",
+        "year": "2022"
+      },
+      {
+        "title": "WISS2022 対話発表賞",
+        "year": "2022"
+      },
+      {
+        "title": "IPA未踏IT人材発掘・育成事業",
+        "year": "2021"
+      },
+      {
+        "title": "東京大学知能社会国際卓越大学院プログラム",
+        "year": "2021"
+      },
+      {
+        "title": "第8回サイレント音声認識ワークショップ学生奨励賞",
+        "year": "2021"
+      },
+      {
+        "title": "環境芸術学会ベストプレゼンテーション賞",
+        "year": "2021"
+      },
+      {
+        "title": "東京大学本郷テックガレージ Spring Founder Program",
+        "year": "2021"
+      }
+    ]
+  }
+}

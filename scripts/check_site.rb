@@ -1,0 +1,85 @@
+# frozen_string_literal: true
+
+# Validate the generated bilingual site without fetching external destinations.
+require 'json'
+require 'nokogiri'
+require 'pathname'
+require 'uri'
+
+root = Pathname.new(ARGV.fetch(0, '_site')).expand_path
+abort "Build the site first: #{root} is missing" unless root.directory?
+errors = []
+documents = {}
+root.glob('**/*.html').each do |path|
+  documents[path] = Nokogiri::HTML(path.read)
+end
+
+documents.each do |path, document|
+  relative = path.relative_path_from(root)
+  errors << "#{relative}: missing page title" if document.at_css('title')&.text.to_s.strip.empty?
+  errors << "#{relative}: missing language" unless %w[en ja].include?(document.at_css('html')&.[]('lang'))
+  errors << "#{relative}: unresolved template" if document.text.match?(/\{\{[<%]|Liquid Exception/)
+
+  document.css('a[href], link[href], img[src], script[src]').each do |element|
+    value = element['href'] || element['src']
+    next if value.to_s.empty? || value.start_with?('mailto:', 'tel:', 'data:', '//')
+    begin
+      uri = URI.parse(value)
+      next if uri.host && !%w[hirotakahiraki.github.io localhost 127.0.0.1].include?(uri.host)
+      next if uri.scheme && !%w[http https].include?(uri.scheme)
+      url_path = URI::DEFAULT_PARSER.unescape(uri.path)
+      target = if url_path.empty?
+                 path
+               elsif url_path.start_with?('/')
+                 root.join(url_path.delete_prefix('/'))
+               else
+                 path.dirname.join(url_path)
+               end
+      target = target.join('index.html') if target.directory?
+      target = target.cleanpath
+      unless target.file?
+        errors << "#{relative}: missing local target #{value}"
+        next
+      end
+      if uri.fragment && !uri.fragment.empty? && target.extname == '.html'
+        destination = documents[target] ||= Nokogiri::HTML(target.read)
+        fragment = URI::DEFAULT_PARSER.unescape(uri.fragment)
+        unless destination.css('[id], a[name]').any? { |node| node['id'] == fragment || node['name'] == fragment }
+          errors << "#{relative}: missing anchor #{value}"
+        end
+      end
+    rescue URI::InvalidURIError => exception
+      errors << "#{relative}: invalid URL #{value.inspect}: #{exception.message}"
+    end
+  end
+end
+
+publications = JSON.parse(File.read('_data/publications.json'))
+profiles = JSON.parse(File.read('_data/profile.json'))
+%w[en ja].each do |lang|
+  prefix = lang == 'ja' ? 'ja/' : ''
+  %w[index.html projects/index.html publications/index.html experience/index.html awards/index.html].each do |route|
+    path = root.join(prefix + route)
+    document = documents[path]
+    if document.nil?
+      errors << "Missing required page: #{prefix}#{route}"
+      next
+    end
+    errors << "#{prefix}#{route}: incorrect language" unless document.at_css('html')['lang'] == lang
+    errors << "#{prefix}#{route}: missing translated page link" unless document.css('.language-navigation a').size == 2
+  end
+  archive = documents[root.join(prefix + 'publications/index.html')]
+  expected = publications[lang].values.sum { |section| section['groups'].sum { |group| group['items'].size } }
+  errors << "#{lang}: publication count differs from source (#{expected})" unless archive&.css('[data-publication]')&.size == expected
+  awards = documents[root.join(prefix + 'awards/index.html')]
+  errors << "#{lang}: awards missing" unless awards&.css('.award-list > li')&.size == profiles[lang]['awards'].size
+  %w[whispermask emask epose silentmask yura].each do |slug|
+    project = documents[root.join(prefix + "project/#{slug}/index.html")]
+    unless project && project.at_css('meta[property="og:image"]')&.[]('content')&.include?("projects/#{slug}.jpg")
+      errors << "#{lang}: missing project or project-specific preview for #{slug}"
+    end
+  end
+end
+
+abort errors.join("\n") unless errors.empty?
+puts "Validated #{documents.size} pages: bilingual routes, publication and award counts, local links, assets, and project previews."

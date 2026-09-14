@@ -1,0 +1,1 @@
+{% assign awards = site.data.profile[page.lang].awards %}<ul class="award-list">{% for item in awards %}<li><span>{{ item.year }}</span><div>{{ item.title }}</div></li>{% endfor %}</ul>

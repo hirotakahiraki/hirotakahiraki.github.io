@@ -1,0 +1,46 @@
+{
+  "en": [
+    {
+      "title": "About",
+      "url": "/"
+    },
+    {
+      "title": "Projects",
+      "url": "/projects/"
+    },
+    {
+      "title": "Publications",
+      "url": "/publications/"
+    },
+    {
+      "title": "Experience",
+      "url": "/experience/"
+    },
+    {
+      "title": "Awards",
+      "url": "/awards/"
+    }
+  ],
+  "ja": [
+    {
+      "title": "略歴",
+      "url": "/ja/"
+    },
+    {
+      "title": "研究",
+      "url": "/ja/projects/"
+    },
+    {
+      "title": "論文・発表",
+      "url": "/ja/publications/"
+    },
+    {
+      "title": "経歴",
+      "url": "/ja/experience/"
+    },
+    {
+      "title": "受賞・採択",
+      "url": "/ja/awards/"
+    }
+  ]
+}

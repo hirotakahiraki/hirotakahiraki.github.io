@@ -1,0 +1,45 @@
+---
+{
+  "title": "E-Mask",
+  "summary": "E-MASK: A Mask-Shaped Interface for Silent Speech Interaction with Flexible Strain Sensors",
+  "description": "E-MASK: A Mask-Shaped Interface for Silent Speech Interaction with Flexible Strain Sensors",
+  "lang": "en",
+  "locale": "en-US",
+  "author": "en",
+  "permalink": "/project/emask/",
+  "translation_en": "/project/emask/",
+  "translation_ja": "/ja/project/emask/",
+  "image": "/images/projects/emask.jpg",
+  "links": [
+    {
+      "icon": "pager",
+      "icon_pack": "fa",
+      "name": "Paper",
+      "url": "https://doi.org/10.1145/3519391.3519399"
+    },
+    {
+      "icon": "paper",
+      "icon_pack": "fa",
+      "name": "Web Media",
+      "url": "https://www.itmedia.co.jp/news/articles/2204/28/news063.html"
+    }
+  ],
+  "year": 2022,
+  "order": 1,
+  "og_image": "projects/emask.jpg"
+}
+---
+
+{% include project-header.html %}
+
+As face masks have become daily accessories since the COVID-19 pandemic, it is reasonable to utilize a mask as a wearable interface. Unlike conventional speech recognition, we envision that silent speech interaction allows users to access digital services even in crowded public spaces.
+
+We present E-MASK, a mask-shaped interface for silent speech interaction. With flexible and highly sensitive strain sensors, E-MASK presents a new measurement principle for silent speech interactions. We built a dataset of sensor patterns corresponding to 21 fundamental commands of Alexa's operation. Estimation accuracies of 84.4% while sitting on a chair and 79.1% while walking on a treadmill were archived.
+
+This result suggests that our system provides seamless interaction with digital devices in various situations in daily life, such as walking in a crowd.79.1%, and to classify 6 types of facial expressions and actions with an accuracy of 84.7%.
+
+
+
+[Video / X](https://twitter.com/hirotakahiraki/status/1519454570581090304)
+
+{% include project-back.html %}

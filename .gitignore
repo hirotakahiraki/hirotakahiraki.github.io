@@ -10,3 +10,11 @@ go.sum
 .hugo_build.lock
 
 *.DS_Store
+
+# AcademicPages / Jekyll
+_site/
+.bundle/
+vendor/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

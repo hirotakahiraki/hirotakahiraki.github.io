@@ -1,0 +1,14 @@
+{% include base_path %}
+{% assign lang = page.lang | default: 'en' %}
+<div class="masthead"><div class="masthead__inner-wrap"><div class="masthead__menu">
+  <nav id="site-nav" class="greedy-nav" aria-label="{% if lang == 'ja' %}メインメニュー{% else %}Main navigation{% endif %}">
+    <button aria-label="{% if lang == 'ja' %}メニューを開く{% else %}Open navigation{% endif %}"><span class="navicon"></span></button>
+    <ul class="visible-links">
+      <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{% if lang == 'ja' %}{{ '/ja/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">Hirotaka Hiraki</a></li>
+      {% for link in site.data.navigation[lang] %}<li class="masthead__menu-item {% if page.url == link.url %}selected{% endif %}"><a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>{% endfor %}
+      {% if page.translation_en %}<li class="masthead__menu-item persist language-navigation"><a href="{{ page.translation_en | relative_url }}" lang="en" hreflang="en"{% if lang == 'en' %} aria-current="page"{% endif %}>EN</a><span aria-hidden="true">/</span><a href="{{ page.translation_ja | relative_url }}" lang="ja" hreflang="ja"{% if lang == 'ja' %} aria-current="page"{% endif %}>日本語</a></li>{% endif %}
+      <li id="theme-toggle" class="masthead__menu-item persist tail"><a role="button" tabindex="0" aria-label="{% if lang == 'ja' %}配色を切り替える{% else %}Toggle color theme{% endif %}"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true"></i></a></li>
+    </ul>
+    <ul class="hidden-links hidden"></ul>
+  </nav>
+</div></div></div>

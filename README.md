@@ -1,23 +1,49 @@
-### memo: prepare for deploy academic theme in github action
+# Hirotaka Hiraki / 平城裕隆
 
-1. get starter-hugo-academic from https://github.com/wowchemy/starter-hugo-academic using "Use this template" button
-  ![use this template](./readme0.png)
+Bilingual researcher website built with [AcademicPages](https://github.com/academicpages/academicpages.github.io) and Jekyll.
 
-2. create public repository named with {USERNAME}.github.io
-   ![create repository](./readme1.png)
-3. git clone this repository
+This trial lives on `redesign/academicpages`. The original public site remains on `main`; the trial branch does not deploy to GitHub Pages.
 
-4. setting baseUrl in /config/_default/config.yaml
+## Local preview
 
-   ```
-   baseURL: 'https://{USERNAME}.github.io/' # Website URL
-   ```
+Requires Ruby 3.2 and Bundler.
 
-5. open this repository in github and setting Build and deployment github pages from settings/pages/
-  ![build and deployment](./readme2.png)
-  then, set github action file in .github/workflows/
-    see this commit: [9fec3a9](https://github.com/hirotakahiraki/hirotakahiraki.github.io/commit/9fec3a9ecfb640bb3c659882e29019609f302364)
+```sh
+bundle config set --local path vendor/bundle
+bundle install
+bundle exec jekyll serve --livereload
+```
 
-6. Google Analytics 4:
-  open config/_default/params.yaml
-  google_tag_manager: 'G-XXXXXXXXXX'
+- English: <http://localhost:4000/>
+- 日本語: <http://localhost:4000/ja/>
+
+## Editing content
+
+| Content | Source |
+| --- | --- |
+| Biography and page introductions | `_pages/en/` and `_pages/ja/` |
+| Sidebar identity and links | `_data/authors.json` |
+| Projects and descriptions | `_projects/en/` and `_projects/ja/` |
+| Publications (shared citation format, localized categories) | `_data/publications.json` |
+| Education, experience, awards | `_data/profile.json` |
+| Navigation and interface labels | `_data/navigation.json`, `_data/labels.json` |
+| Personal style refinements | `_sass/_hiraki.scss` |
+| Profile and project images | `images/` |
+| CV (currently June 2024) | `assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf` |
+
+Every translated page includes `translation_en` and `translation_ja`, so the language control opens the corresponding page. Existing `/project/<name>/` and `/ja/project/<name>/` URLs are retained. Research descriptions and publication metadata were migrated from the existing site; current roles and employment end dates should be updated when new information is available.
+
+## Validation and publishing
+
+```sh
+JEKYLL_ENV=production bundle exec jekyll build
+bundle exec ruby scripts/check_site.rb
+```
+
+GitHub Actions runs the same checks on the trial branch. Public deployment is restricted to `main`. Nothing is published just by previewing or committing locally.
+
+## Theme provenance
+
+The actual AcademicPages templates, Sass, JavaScript, icons, and fonts were imported from upstream commit `c77da751a8124450d5fb818056c0cf081fea08e1` (September 15, 2026). This is a Jekyll migration, with small additions for bilingual navigation, project cards, and publication search. The Hugo implementation was removed from the trial branch.
+
+Upstream license: `licenses/AcademicPages-MIT.txt`.
