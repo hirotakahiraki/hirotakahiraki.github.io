@@ -1,1 +1,1 @@
-{% assign awards = site.data.profile[page.lang].awards %}<ul class="award-list">{% for item in awards %}<li><span>{{ item.year }}</span><div>{{ item.title }}</div></li>{% endfor %}</ul>
+{% assign awards = site.data.profile[page.lang].awards %}<ul class="award-list">{% for item in awards %}<li><span>{{ item.year }}</span><div>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div></li>{% endfor %}</ul>

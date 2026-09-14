@@ -46,6 +46,15 @@ Updated September 15, 2026. These notes and the original Word documents are excl
 - English Ph.D. references add “(Applied Computer Science)” as a field clarification requested by the owner. The Japanese degree name is unchanged.
 - Research support entries now link to the [Tobitate program](https://tobitate-mext.jasso.go.jp/newprogram/uv/), the [Tateisi Foundation’s 2025 grant recipients](https://www.tateisi-f.org/documents/research/list/2025grantlist.html), IIW ([Japanese](https://www.iiw.i.u-tokyo.ac.jp/) / [English](https://www.iiw.i.u-tokyo.ac.jp/en/)), and IPA ([2021 project](https://www.ipa.go.jp/jinzai/mitou/it/2021/gaiyou_tn-2.html) / [English program overview](https://www.ipa.go.jp/en/it-talents/mitou/index.html)). The Tateisi list records Hiraki under second-round short-term overseas research. The old IPA URLs returned 404, so their experience and e-Pose references were updated as well.
 
+## Award links
+
+All 16 awards/selections have links in both languages. URLs are stored alongside their titles in `_data/profile.json`; the original titles and receipt years are retained.
+
+- Award organizers provide the Yamashita, ASJ student, AHs 2024, GUGEN 2024, Good Design New Hope, JID, WISS 2022, and SSRW 2021 destinations. Dyson’s own press release is the James Dyson Award destination.
+- University/affiliated laboratory announcements provide the CEATEC, Interaction 2025, UBI #84, and master’s thesis award destinations. IPA’s 2021 project overview names Hiraki among the selected creators.
+- The SSRW award announcement names the E-MASK presenter Yusuke Kunimi; this is a coauthored project, not a separate individual award announcement for Hiraki.
+- The Environmental Art and Design entry links to the society’s official award overview, where an individual entry under Hiraki’s name was not found. Spring Founders links to the organizer’s program introduction because a public 2021 individual selection notice was not found. These links provide award/program context; they do not independently verify the owner-supplied individual record.
+
 ## Media coverage
 
 The five entries in `_data/media.json` come from the public researchmap `media_coverage` records: 51604172 (MaskClip / ITmedia), 51604174 (CEATEC / Nikkei), 49715951 (ClothTalk / ITmedia), 49715940 (Dyson / PR TIMES), and 49716002 (E-MASK / ITmedia). Article URLs and publication-date precision are preserved. Japanese titles follow the supplied records; English titles are translations, with links identified as Japanese-language articles. Publisher names are normalized to avoid duplicated or misspelled company names. The Nikkei URL was retrieved from researchmap; its article body was not accessible to the web reader.

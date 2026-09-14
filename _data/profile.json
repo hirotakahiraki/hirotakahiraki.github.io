@@ -125,67 +125,83 @@
     "awards": [
       {
         "title": "Information Processing Society of Japan (IPSJ) Yamashita Memorial Research Award",
-        "year": "2026"
+        "year": "2026",
+        "url": "https://www.ipsj.or.jp/award/yamashita2025.html"
       },
       {
         "title": "CEATEC AWARD 2025 Digital Minister's Award",
-        "year": "2025"
+        "year": "2025",
+        "url": "https://www.iii.u-tokyo.ac.jp/news/2025102423547"
       },
       {
         "title": "IPSJ Interaction 2025 Best Paper, Best Presentation, and Interactive Presentation Awards",
-        "year": "2025"
+        "year": "2025",
+        "url": "https://www.iii.u-tokyo.ac.jp/news/2025031022134"
       },
       {
         "title": "Acoustical Society of Japan 29th Autumn Meeting Student Outstanding Presentation Award",
-        "year": "2025"
+        "year": "2025",
+        "url": "https://acoustics.jp/awards/student/"
       },
       {
         "title": "James Dyson Award 2024 Japan National Winner",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://prtimes.jp/main/html/rd/p/000000146.000042335.html"
       },
       {
         "title": "Best Paper Honorable Mention Award at Augmented Humans 2024 (AHs24)",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://2024.augmented-humans.org/"
       },
       {
         "title": "GUGEN 2024 Good Idea Award and two additional prizes",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://gugen.jp/result/2024.html"
       },
       {
         "title": "IPSJ UBI Technical Committee #84 Student Outstanding Presentation Award",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://www.iii.u-tokyo.ac.jp/news/2024120221574"
       },
       {
         "title": "The University of Tokyo, GSII, Head of Department Award and Best Master’s Thesis Award",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://lab.rekimoto.org/2022/03/31/%E5%84%AA%E7%A7%80%E4%BF%AE%E5%A3%AB%E8%AB%96%E6%96%87%E8%B3%9E%EF%BC%88%E5%B0%82%E6%94%BB%E9%95%B7%E8%B3%9E%EF%BC%89%E5%8F%97%E8%B3%9E-2/"
       },
       {
         "title": "Good Design New Hope Award, Honorable mention",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://newhope.g-mark.org/award/22NHA010032.html"
       },
       {
         "title": "Japan Industry Designer's Association Next Age Award",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://jid-award.com/html/past_awards2022.html"
       },
       {
         "title": "Demo Award at Workshop on Interactive Systems and Software (Domestic Conference)",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://www.wiss.org/WISS2022/award.html"
       },
       {
         "title": "Information-technology Promotion Agency (IPA) MITOU Program",
-        "year": "2021"
+        "year": "2021",
+        "url": "https://www.ipa.go.jp/jinzai/mitou/it/2021/gaiyou_tn-2.html"
       },
       {
         "title": "Best Presentation Award at Silent Speech Recognition Workshop (Domestic Workshop)",
-        "year": "2021"
+        "year": "2021",
+        "url": "https://sites.google.com/view/ssrw2021/home"
       },
       {
         "title": "Best Presentation Award at Institute of Environmental Art and Design (Domestic Conference)",
-        "year": "2021"
+        "year": "2021",
+        "url": "https://iead.org/award/"
       },
       {
         "title": "The University of Tokyo Hongo Tech Garage Spring Founder Program",
-        "year": "2021"
+        "year": "2021",
+        "url": "https://www.hongotechgarage.com/project/"
       }
     ],
     "support": [
@@ -346,67 +362,83 @@
     "awards": [
       {
         "title": "情報処理学会 山下記念研究賞",
-        "year": "2026"
+        "year": "2026",
+        "url": "https://www.ipsj.or.jp/award/yamashita2025.html"
       },
       {
         "title": "CEATEC AWARD 2025 デジタル大臣賞",
-        "year": "2025"
+        "year": "2025",
+        "url": "https://www.iii.u-tokyo.ac.jp/news/2025102423547"
       },
       {
         "title": "情報処理学会 インタラクション2025 最優秀論文賞・最優秀発表賞・インタラクティブ発表賞",
-        "year": "2025"
+        "year": "2025",
+        "url": "https://www.iii.u-tokyo.ac.jp/news/2025031022134"
       },
       {
         "title": "日本音響学会 第29回秋季研究発表会 学生優秀発表賞",
-        "year": "2025"
+        "year": "2025",
+        "url": "https://acoustics.jp/awards/student/"
       },
       {
         "title": "James Dyson Award 2024 国内最優秀賞",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://prtimes.jp/main/html/rd/p/000000146.000042335.html"
       },
       {
         "title": "Best Paper Honorable Mention Award, Augmented Humans 2024 (AHs24)",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://2024.augmented-humans.org/"
       },
       {
         "title": "GUGEN 2024 Good Idea賞など3件受賞",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://gugen.jp/result/2024.html"
       },
       {
         "title": "情報処理学会 第84回UBI研究会 学生優秀発表賞",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://www.iii.u-tokyo.ac.jp/news/2024120221574"
       },
       {
         "title": "東京大学大学院 学際情報学府 専攻長賞・優秀修士論文賞",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://lab.rekimoto.org/2022/03/31/%E5%84%AA%E7%A7%80%E4%BF%AE%E5%A3%AB%E8%AB%96%E6%96%87%E8%B3%9E%EF%BC%88%E5%B0%82%E6%94%BB%E9%95%B7%E8%B3%9E%EF%BC%89%E5%8F%97%E8%B3%9E-2/"
       },
       {
         "title": "Good Design New Hope Award 2022 Honorable Mention",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://newhope.g-mark.org/award/22NHA010032.html"
       },
       {
         "title": "JID Next Age賞",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://jid-award.com/html/past_awards2022.html"
       },
       {
         "title": "WISS2022 対話発表賞",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://www.wiss.org/WISS2022/award.html"
       },
       {
         "title": "IPA未踏IT人材発掘・育成事業",
-        "year": "2021"
+        "year": "2021",
+        "url": "https://www.ipa.go.jp/jinzai/mitou/it/2021/gaiyou_tn-2.html"
       },
       {
         "title": "第8回サイレント音声認識ワークショップ学生奨励賞",
-        "year": "2021"
+        "year": "2021",
+        "url": "https://sites.google.com/view/ssrw2021/home"
       },
       {
         "title": "環境芸術学会ベストプレゼンテーション賞",
-        "year": "2021"
+        "year": "2021",
+        "url": "https://iead.org/award/"
       },
       {
         "title": "東京大学本郷テックガレージ Spring Founder Program",
-        "year": "2021"
+        "year": "2021",
+        "url": "https://www.hongotechgarage.com/project/"
       }
     ],
     "support": [
