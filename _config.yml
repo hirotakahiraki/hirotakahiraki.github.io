@@ -4,20 +4,21 @@ site_theme: default
 title: Hirotaka Hiraki
 title_separator: "-"
 name: Hirotaka Hiraki
-description: Hirotaka Hiraki / 平城裕隆 — Human–Computer Interaction, wearable devices,
-  and speech interfaces.
+description: Hirotaka Hiraki / 平城裕隆 — Research Scientist, HCI team, SB Intuitions.
+  Ph.D. in Interdisciplinary Information Studies.
 url: https://hirotakahiraki.github.io
 baseurl: ''
 repository: hirotakahiraki/hirotakahiraki.github.io
 author:
   name: Hirotaka Hiraki
   avatar: profile.jpg
-  bio: Doctoral student in Human–Computer Interaction
-  employer: The University of Tokyo
+  bio: Research Scientist · Ph.D.
+  employer: SB Intuitions · HCI team
   email: hiraki-uts1@g.ecc.u-tokyo.ac.jp
   linkedin: hirotakahiraki
   facebook: h1raki
   twitter: h1raki
+  googlescholar: https://scholar.google.co.jp/citations?user=BkvyB-YAAAAJ
 publication_category:
   books:
     title: Books
@@ -77,7 +78,7 @@ facebook:
   app_id:
   publisher:
 og_image: profile.jpg
-og_description: Hirotaka Hiraki — Human–Computer Interaction
+og_description: Hirotaka Hiraki — Research Scientist at SB Intuitions, Ph.D.
 social:
   type: Person
   name: Hirotaka Hiraki

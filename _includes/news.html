@@ -2,18 +2,8 @@
 <section id="news" aria-labelledby="news-heading">
   <h2 id="news-heading">{{ t.news }}</h2>
   <ul class="news-list">
-    {% for item in news limit:5 %}
+    {% for item in news %}
       {% include news-item.html item=item %}
     {% endfor %}
   </ul>
-  {% if news.size > 5 %}
-    <details class="news-archive">
-      <summary>{{ t.earlier_news }}</summary>
-      <ul class="news-list">
-        {% for item in news offset:5 %}
-          {% include news-item.html item=item %}
-        {% endfor %}
-      </ul>
-    </details>
-  {% endif %}
 </section>

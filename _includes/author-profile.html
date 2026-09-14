@@ -38,7 +38,6 @@
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
 
-      <li><a href="https://lab.rekimoto.org/"><i class="fas fa-fw fa-flask icon-pad-right" aria-hidden="true"></i>{{ author.lab }}</a></li>
       <li><a href="{{ author.cv | relative_url }}"><i class="ai ai-cv ai-fw icon-pad-right" aria-hidden="true"></i>{{ site.data.labels[page.lang].cv }}</a></li>
       <li class="cv-date">{{ site.data.labels[page.lang].cv_note }}</li>
       <!-- Font Awesome and Academicons icons / Academic websites -->

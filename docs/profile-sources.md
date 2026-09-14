@@ -9,7 +9,7 @@ Updated September 15, 2026. These notes and the original Word documents are excl
 
 ## Public records
 
-- [researchmap profile](https://researchmap.jp/hirotakahiraki), accessed through its [public JSON API](https://api.researchmap.jp/hirotakahiraki): doctoral enrollment, education, Research Scholar (Internship) at UW from December 2025, JST ACT-X October 2023–March 2026 and Acceleration Phase from April 2026, AIST April 2022–March 2025, publication months and award months. Current roles remain open-ended where the public career record is open-ended. The acceleration grant period is April 2026–March 2027.
+- [researchmap profile](https://researchmap.jp/hirotakahiraki), accessed through its [public JSON API](https://api.researchmap.jp/hirotakahiraki): education, Research Scholar (Internship) at UW from December 2025, JST ACT-X October 2023–March 2026 and Acceleration Phase from April 2026, AIST April 2022–March 2025, publication months and award months. The acceleration grant period is April 2026–March 2027. Subsequent owner-supplied updates below take precedence for the current position, completed doctorate, and Yamashita award date.
 - [University of Tokyo: CEATEC AWARD 2025](https://www.iii.u-tokyo.ac.jp/news/2025102423547): MaskClip award and joint attribution to Rekimoto Laboratory and Murata Manufacturing.
 - [University of Tokyo: Interaction 2025](https://www.iii.u-tokyo.ac.jp/news/2025031022134): ClothTalk’s three awards, including the PC-recommended interactive presentation award.
 - [Dyson’s award announcement](https://prtimes.jp/main/html/rd/p/000000146.000042335.html): WhisperMask, Japan National Winner, September 11, 2024.
@@ -20,8 +20,17 @@ Updated September 15, 2026. These notes and the original Word documents are excl
 
 ## Editorial decisions
 
-- Profile copy is a concise adaptation, not a reproduction of the application statement. No claim of a completed doctorate is made.
+- Profile copy is a concise adaptation, not a reproduction of the application statement.
 - News displays event/publication months, not record creation dates or an invented first day of the month. Within a month, order is editorial, not a claim of exact chronology.
 - Grants retain the year ranges supplied in the achievements list. IIW support (2022–2026) replaces the older site’s inconsistent 2021 fellowship entry in Awards.
 - Education now uses interdisciplinary information studies and engineering degree names rather than the previous site’s MEng/BSc labels; the Japanese course-name typo is corrected.
 - Publication bibliography and the dated June 2024 CV are separate existing artifacts; the CV was not regenerated in this update.
+
+## Owner-supplied updates
+
+- September 2026: joined the HCI team at SB Intuitions as a Research Scientist; SB Intuitions is the current affiliation.
+- September 2026: received a Ph.D. in Interdisciplinary Information Studies from the Graduate School of Interdisciplinary Information Studies, the University of Tokyo. This replaces the earlier doctoral-student status.
+- The IPSJ Yamashita Memorial Research Award was received in March 2026. Both News and Awards use the actual receipt date; the 2025 award-list URL remains the supporting announcement.
+- Google Scholar: https://scholar.google.co.jp/citations?user=BkvyB-YAAAAJ
+- The UW entry records the known start in December 2025 without asserting a current affiliation or inventing an end month.
+- News is shown in full, with compact spacing. CV links use the label “CV”; the laboratory link is removed from the profile and sidebar.

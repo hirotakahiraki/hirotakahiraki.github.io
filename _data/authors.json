@@ -2,29 +2,29 @@
   "en": {
     "name": "Hirotaka Hiraki",
     "avatar": "profile.jpg",
-    "bio": "Doctoral student · Human–Computer Interaction",
-    "employer": "The University of Tokyo",
+    "bio": "Research Scientist · Ph.D.",
+    "employer": "SB Intuitions · HCI team",
     "email": "hiraki-uts1@g.ecc.u-tokyo.ac.jp",
     "linkedin": "hirotakahiraki",
     "facebook": "h1raki",
     "twitter": "h1raki",
     "alternate_name": "平城 裕隆",
-    "lab": "Rekimoto Laboratory",
     "cv": "/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf",
-    "researchmap": "https://researchmap.jp/hirotakahiraki"
+    "researchmap": "https://researchmap.jp/hirotakahiraki",
+    "googlescholar": "https://scholar.google.co.jp/citations?user=BkvyB-YAAAAJ"
   },
   "ja": {
     "name": "平城 裕隆",
     "avatar": "profile.jpg",
-    "bio": "ヒューマンコンピュータインタラクション・博士課程",
-    "employer": "東京大学大学院 学際情報学府",
+    "bio": "Research Scientist · Ph.D.",
+    "employer": "SB Intuitions · HCI team",
     "email": "hiraki-uts1@g.ecc.u-tokyo.ac.jp",
     "linkedin": "hirotakahiraki",
     "facebook": "h1raki",
     "twitter": "h1raki",
     "alternate_name": "Hirotaka Hiraki",
-    "lab": "暦本研究室",
     "cv": "/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf",
-    "researchmap": "https://researchmap.jp/hirotakahiraki"
+    "researchmap": "https://researchmap.jp/hirotakahiraki",
+    "googlescholar": "https://scholar.google.co.jp/citations?user=BkvyB-YAAAAJ"
   }
 }

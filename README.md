@@ -34,7 +34,7 @@ bundle exec jekyll serve --livereload
 
 Every translated page includes `translation_en` and `translation_ja`, so the language control opens the corresponding page. Existing `/project/<name>/` and `/ja/project/<name>/` URLs are retained.
 
-Add news to `_data/news.json` in newest-first order. Each entry has a unique `id`, a `date` in `YYYY-MM` format, and `en` / `ja` text supporting Markdown links. The Profile shows the first five entries; older entries are available through “Earlier news.” Dates are recorded to the month to match the precision of the source records.
+Add news to `_data/news.json` in newest-first order. Each entry has a unique `id`, a `date` in `YYYY-MM` format, and `en` / `ja` text supporting Markdown links. The Profile shows all entries in a compact list. Dates are recorded to the month to match the precision of the source records.
 
 The profile, current roles, and news were updated using the supplied achievement and study-abroad documents and public researchmap records. Editorial source notes are in `docs/profile-sources.md`. Local `.docx` source documents are ignored by Git and excluded from the generated website; keep the public CV in `assets/pdfs/`.
 

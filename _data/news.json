@@ -1,9 +1,27 @@
 [
   {
+    "id": "sb-intuitions-2026",
+    "date": "2026-09",
+    "ja": "**SB Intuitions の HCI team** に **Research Scientist** として入社しました。",
+    "en": "I joined the **HCI team at SB Intuitions** as a **Research Scientist**."
+  },
+  {
+    "id": "phd-2026",
+    "date": "2026-09",
+    "ja": "東京大学大学院 学際情報学府にて **博士（学際情報学）** を取得しました。",
+    "en": "I received my **Ph.D. in Interdisciplinary Information Studies** from the Graduate School of Interdisciplinary Information Studies at the University of Tokyo."
+  },
+  {
     "id": "actx-acceleration-2026",
     "date": "2026-04",
     "ja": "JST ACT-X「リアル空間を強靭にするハードウェアの未来」の**加速フェーズ**での研究を開始しました。[研究課題](https://researchmap.jp/hirotakahiraki/research_projects)",
     "en": "My research in JST ACT-X entered the **Acceleration Phase**. [Project details](https://researchmap.jp/hirotakahiraki/research_projects)"
+  },
+  {
+    "id": "yamashita-2025",
+    "date": "2026-03",
+    "ja": "**ClothTalk** の研究で、**情報処理学会 山下記念研究賞**を受賞しました。[受賞者一覧](https://www.ipsj.or.jp/award/yamashita2025.html)",
+    "en": "I received the **IPSJ Yamashita Memorial Research Award** for **ClothTalk**. [Award recipients](https://www.ipsj.or.jp/award/yamashita2025.html)"
   },
   {
     "id": "uw-2025",
@@ -34,12 +52,6 @@
     "date": "2025-09",
     "ja": "ごく小さなささやき声を認識する **SilentWhisper** の論文が IEEE Access に掲載されました。[論文](https://doi.org/10.1109/ACCESS.2025.3612004)",
     "en": "Our paper on **SilentWhisper**, recognizing speech whispered at extremely low volumes, was published in IEEE Access. [Paper](https://doi.org/10.1109/ACCESS.2025.3612004)"
-  },
-  {
-    "id": "yamashita-2025",
-    "date": "2025-09",
-    "ja": "**ClothTalk** の研究で、**情報処理学会 山下記念研究賞**を受賞しました。[受賞者一覧](https://www.ipsj.or.jp/award/yamashita2025.html)",
-    "en": "I received the **IPSJ Yamashita Memorial Research Award** for **ClothTalk**. [Award recipients](https://www.ipsj.or.jp/award/yamashita2025.html)"
   },
   {
     "id": "interaction-2025",

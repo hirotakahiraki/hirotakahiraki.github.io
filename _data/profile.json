@@ -2,9 +2,9 @@
   "en": {
     "education": [
       {
-        "course": "Ph.D. program in Interdisciplinary Information Studies (Applied Computer Science)",
-        "institution": "The University of Tokyo",
-        "year": "2022 — Present"
+        "course": "Ph.D. in Interdisciplinary Information Studies",
+        "institution": "Graduate School of Interdisciplinary Information Studies, The University of Tokyo",
+        "year": "2022.04 — 2026.09"
       },
       {
         "course": "Master’s degree in Interdisciplinary Information Studies (Applied Computer Science)",
@@ -19,6 +19,13 @@
     ],
     "experience": [
       {
+        "title": "Research Scientist",
+        "company": "SB Intuitions",
+        "company_url": "https://www.sbintuitions.co.jp/",
+        "date_start": "2026-09",
+        "description": "HCI team"
+      },
+      {
         "title": "Individual Researcher",
         "company": "JST ACT-X Acceleration Phase",
         "company_url": "https://researchmap.jp/hirotakahiraki/research_projects",
@@ -32,7 +39,8 @@
         "company_url": "https://www.cs.washington.edu/",
         "company_logo": "W-Logo_Purple_vector",
         "location": "Seattle, WA, USA",
-        "date_start": "2025-12"
+        "date_start": "2025-12",
+        "date_note": "Joined 2025.12"
       },
       {
         "title": "Individual Researcher",
@@ -77,11 +85,11 @@
     ],
     "awards": [
       {
-        "title": "CEATEC AWARD 2025 Digital Minister's Award",
-        "year": "2025"
+        "title": "Information Processing Society of Japan (IPSJ) Yamashita Memorial Research Award",
+        "year": "2026"
       },
       {
-        "title": "Information Processing Society of Japan (IPSJ) Yamashita Memorial Research Award",
+        "title": "CEATEC AWARD 2025 Digital Minister's Award",
         "year": "2025"
       },
       {
@@ -171,9 +179,9 @@
   "ja": {
     "education": [
       {
-        "course": "学際情報学府 総合分析情報学コース 博士課程",
-        "institution": "東京大学",
-        "year": "2022 — 現在"
+        "course": "博士（学際情報学）",
+        "institution": "東京大学大学院 学際情報学府",
+        "year": "2022.04 — 2026.09"
       },
       {
         "course": "修士（学際情報学）・総合分析情報学コース",
@@ -188,6 +196,13 @@
     ],
     "experience": [
       {
+        "title": "Research Scientist",
+        "company": "SB Intuitions",
+        "company_url": "https://www.sbintuitions.co.jp/",
+        "date_start": "2026-09",
+        "description": "HCI team"
+      },
+      {
         "title": "個人研究者",
         "company": "JST ACT-X 加速フェーズ",
         "company_url": "https://researchmap.jp/hirotakahiraki/research_projects",
@@ -201,7 +216,8 @@
         "company_url": "https://www.cs.washington.edu/",
         "company_logo": "W-Logo_Purple_vector",
         "location": "Seattle, WA, USA",
-        "date_start": "2025-12"
+        "date_start": "2025-12",
+        "date_note": "2025.12 参加"
       },
       {
         "title": "個人研究者",
@@ -245,11 +261,11 @@
     ],
     "awards": [
       {
-        "title": "CEATEC AWARD 2025 デジタル大臣賞",
-        "year": "2025"
+        "title": "情報処理学会 山下記念研究賞",
+        "year": "2026"
       },
       {
-        "title": "情報処理学会 山下記念研究賞",
+        "title": "CEATEC AWARD 2025 デジタル大臣賞",
         "year": "2025"
       },
       {

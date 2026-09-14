@@ -43,15 +43,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .page__content .news-list { list-style: none; padding: 0; margin: 0; }
 .news-list li {
   display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 20px;
-  padding: 13px 0; border-bottom: 1px solid var(--global-border-color);
-  font-size: .85em; line-height: 1.8;
+  padding: 8px 0; border-bottom: 1px solid var(--global-border-color);
+  font-size: .85em; line-height: 1.6;
   time { padding-top: 2px; font-size: .85em; opacity: .7; font-variant-numeric: tabular-nums; }
   p { margin: 0; font-size: inherit; }
-}
-.news-archive {
-  margin-top: 16px;
-  summary { width: fit-content; font-size: .8em; color: var(--global-link-color); cursor: pointer; }
-  &[open] summary { margin-bottom: 10px; }
 }
 .page__content .recent-papers { list-style: none; padding: 0; }
 .recent-papers li {

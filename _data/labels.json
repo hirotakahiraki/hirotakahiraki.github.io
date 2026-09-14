@@ -11,7 +11,7 @@
     "recent": "Recent publications",
     "all_publications": "All publications",
     "present": "Present",
-    "cv": "Download CV",
+    "cv": "CV",
     "cv_note": "PDF · Updated June 2024",
     "paper": "Paper",
     "details": "Project details",
@@ -26,7 +26,6 @@
     "empty": "No publications match your search.",
     "clear": "Clear filters",
     "news": "News",
-    "earlier_news": "Earlier news",
     "support": "Grants & scholarships"
   },
   "ja": {
@@ -41,7 +40,7 @@
     "recent": "最近の論文",
     "all_publications": "すべての論文・発表",
     "present": "現在",
-    "cv": "CVをダウンロード",
+    "cv": "CV",
     "cv_note": "PDF・2024年6月更新",
     "paper": "論文",
     "details": "研究の詳細",
@@ -56,7 +55,6 @@
     "empty": "条件に一致する論文・発表はありません。",
     "clear": "絞り込みを解除",
     "news": "ニュース",
-    "earlier_news": "過去のニュース",
     "support": "研究助成・奨学金"
   }
 }
