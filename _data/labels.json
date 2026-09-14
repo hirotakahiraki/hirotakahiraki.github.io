@@ -1,6 +1,6 @@
 {
   "en": {
-    "about": "About",
+    "about": "Profile",
     "projects": "Projects",
     "publications": "Publications",
     "experience": "Experience",
@@ -27,7 +27,7 @@
     "clear": "Clear filters"
   },
   "ja": {
-    "about": "略歴",
+    "about": "プロフィール",
     "projects": "研究",
     "publications": "論文・発表",
     "experience": "経歴",

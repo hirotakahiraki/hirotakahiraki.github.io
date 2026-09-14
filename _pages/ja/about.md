@@ -1,6 +1,6 @@
 ---
 {
-  "title": "略歴",
+  "title": "プロフィール",
   "lang": "ja",
   "locale": "ja-JP",
   "author": "ja",

@@ -1,6 +1,6 @@
 ---
 {
-  "title": "About me",
+  "title": "Profile",
   "lang": "en",
   "locale": "en-US",
   "author": "en",
