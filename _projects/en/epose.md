@@ -15,7 +15,7 @@
       "icon": "pager",
       "icon_pack": "fa",
       "name": "Webpage",
-      "url": "https://www.ipa.go.jp/jinzai/mitou/2021/seika.html"
+      "url": "https://www.ipa.go.jp/jinzai/mitou/it/2021/gaiyou_tn-2.html"
     },
     {
       "icon": "youtube",

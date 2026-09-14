@@ -2,7 +2,7 @@
   "en": {
     "education": [
       {
-        "course": "Ph.D. in Interdisciplinary Information Studies",
+        "course": "Ph.D. in Interdisciplinary Information Studies (Applied Computer Science)",
         "institution": "Graduate School of Interdisciplinary Information Studies, The University of Tokyo",
         "year": "2022.04 — 2026.09",
         "advisors": [
@@ -104,7 +104,7 @@
       {
         "title": "Creator",
         "company": "IPA Exploratory IT Human Resources Project 2021",
-        "company_url": "https://www.ipa.go.jp/english/humandev/third.html",
+        "company_url": "https://www.ipa.go.jp/en/it-talents/mitou/index.html",
         "company_logo": "mitou",
         "location": "Tokyo, Japan",
         "date_start": "2021-07",
@@ -196,11 +196,13 @@
       },
       {
         "period": "2025 — 2026",
-        "title": "Tobitate! Study Abroad JAPAN, New Japan Representative Program (Innovator Course)"
+        "title": "Tobitate! Study Abroad JAPAN, New Japan Representative Program (Innovator Course)",
+        "url": "https://tobitate-mext.jasso.go.jp/newprogram/uv/"
       },
       {
         "period": "2025 — 2026",
-        "title": "Tateisi Science and Technology Foundation, International Exchange Grant (second round)"
+        "title": "Tateisi Science and Technology Foundation, International Exchange Grant (second round)",
+        "url": "https://www.tateisi-f.org/documents/research/list/2025grantlist.html"
       },
       {
         "period": "2023 — 2026",
@@ -209,11 +211,13 @@
       },
       {
         "period": "2022 — 2026",
-        "title": "The University of Tokyo, International Graduate Program of Innovation for Intelligent World"
+        "title": "The University of Tokyo, International Graduate Program of Innovation for Intelligent World",
+        "url": "https://www.iiw.i.u-tokyo.ac.jp/en/"
       },
       {
         "period": "2021 — 2022",
-        "title": "IPA MITOU Program"
+        "title": "IPA MITOU Program",
+        "url": "https://www.ipa.go.jp/en/it-talents/mitou/index.html"
       }
     ]
   },
@@ -321,7 +325,7 @@
       {
         "title": "クリエイター",
         "company": "2021年度 IPA 未踏人材発掘・育成事業",
-        "company_url": "https://www.ipa.go.jp/jinzai/mitou/2021/seika.html",
+        "company_url": "https://www.ipa.go.jp/jinzai/mitou/it/2021/gaiyou_tn-2.html",
         "company_logo": "mitou",
         "location": "Tokyo, Japan",
         "date_start": "2021-07",
@@ -413,11 +417,13 @@
       },
       {
         "period": "2025 — 2026",
-        "title": "トビタテ！留学JAPAN 新・日本代表プログラム（イノベーターコース）"
+        "title": "トビタテ！留学JAPAN 新・日本代表プログラム（イノベーターコース）",
+        "url": "https://tobitate-mext.jasso.go.jp/newprogram/uv/"
       },
       {
         "period": "2025 — 2026",
-        "title": "立石科学技術振興財団 後期国際交流助成"
+        "title": "立石科学技術振興財団 後期国際交流助成",
+        "url": "https://www.tateisi-f.org/documents/research/list/2025grantlist.html"
       },
       {
         "period": "2023 — 2026",
@@ -426,11 +432,13 @@
       },
       {
         "period": "2022 — 2026",
-        "title": "東京大学 知能社会国際卓越大学院プログラム"
+        "title": "東京大学 知能社会国際卓越大学院プログラム",
+        "url": "https://www.iiw.i.u-tokyo.ac.jp/"
       },
       {
         "period": "2021 — 2022",
-        "title": "IPA 未踏IT人材発掘・育成事業"
+        "title": "IPA 未踏IT人材発掘・育成事業",
+        "url": "https://www.ipa.go.jp/jinzai/mitou/it/2021/gaiyou_tn-2.html"
       }
     ]
   }

@@ -43,6 +43,8 @@ Updated September 15, 2026. These notes and the original Word documents are excl
 - The sidebar email link is removed; the profile’s Contact section retains the email address.
 - The profile introduces past research roles in UW CSE → AIST → ACT-X order. It uses the owner’s shorter “Research Intern” wording for UW; the dated experience entry retains the official “Research Scholar (Internship)” title. The Japanese SB Intuitions news entry says “Join しました,” as requested.
 - The owner requested a formal biographical style modeled on the supplied Jun Rekimoto biography. Japanese profile prose uses plain/declarative endings; English uses third person. Representative projects and selected awards are drawn from the existing project and award records. News remains in its existing announcement style.
+- English Ph.D. references add “(Applied Computer Science)” as a field clarification requested by the owner. The Japanese degree name is unchanged.
+- Research support entries now link to the [Tobitate program](https://tobitate-mext.jasso.go.jp/newprogram/uv/), the [Tateisi Foundation’s 2025 grant recipients](https://www.tateisi-f.org/documents/research/list/2025grantlist.html), IIW ([Japanese](https://www.iiw.i.u-tokyo.ac.jp/) / [English](https://www.iiw.i.u-tokyo.ac.jp/en/)), and IPA ([2021 project](https://www.ipa.go.jp/jinzai/mitou/it/2021/gaiyou_tn-2.html) / [English program overview](https://www.ipa.go.jp/en/it-talents/mitou/index.html)). The Tateisi list records Hiraki under second-round short-term overseas research. The old IPA URLs returned 404, so their experience and e-Pose references were updated as well.
 
 ## Media coverage
 

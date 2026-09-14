@@ -7,11 +7,11 @@
   "permalink": "/",
   "translation_en": "/",
   "translation_ja": "/ja/",
-  "description": "Hirotaka Hiraki — Research Scientist, HCI team, SB Intuitions. Ph.D. in Interdisciplinary Information Studies. Human–Computer Interaction, wearable devices, and speech interfaces."
+  "description": "Hirotaka Hiraki — Research Scientist, HCI team, SB Intuitions. Ph.D. in Interdisciplinary Information Studies (Applied Computer Science). Human–Computer Interaction, wearable devices, and speech interfaces."
 }
 ---
 
-Hirotaka Hiraki is a **Research Scientist on the HCI team at [SB Intuitions](https://www.sbintuitions.co.jp/en/)**. Hiraki received a **Ph.D. in Interdisciplinary Information Studies** from the Graduate School of Interdisciplinary Information Studies at the University of Tokyo, advised by **[Jun Rekimoto](https://lab.rekimoto.org/)** and **[Yoshio Ishiguro](https://ishiguro-lab.org/)**.
+Hirotaka Hiraki is a **Research Scientist on the HCI team at [SB Intuitions](https://www.sbintuitions.co.jp/en/)**. Hiraki received a **Ph.D. in Interdisciplinary Information Studies (Applied Computer Science)** from the Graduate School of Interdisciplinary Information Studies at the University of Tokyo, advised by **[Jun Rekimoto](https://lab.rekimoto.org/)** and **[Yoshio Ishiguro](https://ishiguro-lab.org/)**.
 
 Previous research appointments include Research Intern at the **University of Washington’s Paul G. Allen School of Computer Science & Engineering (UW CSE)**, advised by [Shyam Gollakota](https://homes.cs.washington.edu/~gshyam/), and Research Assistant at **AIST’s Human Augmentation Research Center**. Hiraki has been an Individual Researcher in **[JST ACT-X](https://www.jst.go.jp/kisoken/act-x/project/111F005/111F005_2023.html#anchor-16)** since 2023, continuing into its Acceleration Phase in 2026, and a Technical Advisor at [Tokyo Ishigaku Sogo Kenkyujo, K.K.](https://tokyomdlabo.com/) since April 2025.
 
