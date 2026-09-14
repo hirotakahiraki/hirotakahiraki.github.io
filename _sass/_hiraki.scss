@@ -11,7 +11,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 95px; }
 body { line-height: 1.8; }
 [hidden] { display: none !important; }
 a { text-underline-offset: 3px; }
-a:focus-visible, button:focus-visible, input:focus-visible {
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
   outline: 2px solid var(--global-link-color);
   outline-offset: 4px;
 }
@@ -40,6 +40,19 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .page__content h2 { margin-top: 2.25em; padding-bottom: .45em; font-size: 1.25em; }
 .page__content h3 { line-height: 1.55; }
 .home-links { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 26px 0 35px; font-size: .8em; }
+.page__content .news-list { list-style: none; padding: 0; margin: 0; }
+.news-list li {
+  display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 20px;
+  padding: 13px 0; border-bottom: 1px solid var(--global-border-color);
+  font-size: .85em; line-height: 1.8;
+  time { padding-top: 2px; font-size: .85em; opacity: .7; font-variant-numeric: tabular-nums; }
+  p { margin: 0; font-size: inherit; }
+}
+.news-archive {
+  margin-top: 16px;
+  summary { width: fit-content; font-size: .8em; color: var(--global-link-color); cursor: pointer; }
+  &[open] summary { margin-bottom: 10px; }
+}
 .page__content .recent-papers { list-style: none; padding: 0; }
 .recent-papers li {
   display: grid; grid-template-columns: 48px 1fr; gap: 20px;
@@ -127,6 +140,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   .author__alternate { margin-bottom: 8px; }
 }
 @media (max-width: 480px) {
+  .news-list li { grid-template-columns: 62px minmax(0, 1fr); gap: 12px; }
   .research-grid { grid-template-columns: 1fr; }
   .profile-timeline > div { grid-template-columns: 1fr; gap: 5px; }
   .publication-item { grid-template-columns: 34px minmax(0, 1fr); gap: 12px; }

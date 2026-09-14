@@ -1,0 +1,4 @@
+<li data-news="{{ include.item.id }}">
+  <time datetime="{{ include.item.date }}">{{ include.item.date | replace: '-', '.' }}</time>
+  <div>{{ include.item[page.lang] | markdownify }}</div>
+</li>

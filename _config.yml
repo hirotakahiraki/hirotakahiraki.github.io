@@ -90,6 +90,8 @@ include:
 - _pages
 - files
 exclude:
+- "*.docx"
+- "**/*.docx"
 - "*.sublime-project"
 - "*.sublime-workspace"
 - ".asset-cache"

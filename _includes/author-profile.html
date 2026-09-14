@@ -42,6 +42,9 @@
       <li><a href="{{ author.cv | relative_url }}"><i class="ai ai-cv ai-fw icon-pad-right" aria-hidden="true"></i>{{ site.data.labels[page.lang].cv }}</a></li>
       <li class="cv-date">{{ site.data.labels[page.lang].cv_note }}</li>
       <!-- Font Awesome and Academicons icons / Academic websites -->
+      {% if author.researchmap %}
+        <li><a href="{{ author.researchmap }}"><i class="fas fa-fw fa-book-open icon-pad-right" aria-hidden="true"></i>researchmap</a></li>
+      {% endif %}
       {% if author.academia %}
         <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw icon-pad-right" aria-hidden="true"></i>Academia</a></li>
       {% endif %}

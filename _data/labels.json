@@ -24,7 +24,10 @@
     "search": "Search title, author, or venue",
     "results": "publications",
     "empty": "No publications match your search.",
-    "clear": "Clear filters"
+    "clear": "Clear filters",
+    "news": "News",
+    "earlier_news": "Earlier news",
+    "support": "Grants & scholarships"
   },
   "ja": {
     "about": "プロフィール",
@@ -51,6 +54,9 @@
     "search": "タイトル・著者・発表先で検索",
     "results": "件の論文・発表",
     "empty": "条件に一致する論文・発表はありません。",
-    "clear": "絞り込みを解除"
+    "clear": "絞り込みを解除",
+    "news": "ニュース",
+    "earlier_news": "過去のニュース",
+    "support": "研究助成・奨学金"
   }
 }

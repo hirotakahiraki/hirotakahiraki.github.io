@@ -56,6 +56,9 @@ end
 
 publications = JSON.parse(File.read('_data/publications.json'))
 profiles = JSON.parse(File.read('_data/profile.json'))
+news = JSON.parse(File.read('_data/news.json'))
+errors << 'Source Word documents must not be published' unless root.glob('**/*').none? { |path| path.extname.downcase == '.docx' }
+errors << 'News must be ordered newest first' unless news.map { |item| item['date'] } == news.map { |item| item['date'] }.sort.reverse
 %w[en ja].each do |lang|
   prefix = lang == 'ja' ? 'ja/' : ''
   %w[index.html projects/index.html publications/index.html experience/index.html awards/index.html].each do |route|
@@ -73,6 +76,12 @@ profiles = JSON.parse(File.read('_data/profile.json'))
   errors << "#{lang}: publication count differs from source (#{expected})" unless archive&.css('[data-publication]')&.size == expected
   awards = documents[root.join(prefix + 'awards/index.html')]
   errors << "#{lang}: awards missing" unless awards&.css('.award-list > li')&.size == profiles[lang]['awards'].size
+  home = documents[root.join(prefix + 'index.html')]
+  entries = home&.css('#news [data-news]')
+  errors << "#{lang}: news missing or out of order" unless entries&.map { |entry| entry['data-news'] } == news.map { |item| item['id'] }
+  errors << "#{lang}: news translation missing" if news.any? { |item| item[lang].to_s.strip.empty? }
+  experience = documents[root.join(prefix + 'experience/index.html')]
+  errors << "#{lang}: research support missing" unless experience&.css('.support-list > div')&.size == profiles[lang]['support'].size
   %w[whispermask emask epose silentmask yura].each do |slug|
     project = documents[root.join(prefix + "project/#{slug}/index.html")]
     unless project && project.at_css('meta[property="og:image"]')&.[]('content')&.include?("projects/#{slug}.jpg")
@@ -82,4 +91,4 @@ profiles = JSON.parse(File.read('_data/profile.json'))
 end
 
 abort errors.join("\n") unless errors.empty?
-puts "Validated #{documents.size} pages: bilingual routes, publication and award counts, local links, assets, and project previews."
+puts "Validated #{documents.size} pages: bilingual routes, news, publications, awards, research support, local links, assets, project previews, and source document exclusions."

@@ -2,39 +2,47 @@
   "en": {
     "education": [
       {
-        "course": "PhD course in Applied Computer Science",
+        "course": "Ph.D. program in Interdisciplinary Information Studies (Applied Computer Science)",
         "institution": "The University of Tokyo",
-        "year": "2022 - current"
+        "year": "2022 — Present"
       },
       {
-        "course": "MEng in Applied Computer Science",
+        "course": "Master’s degree in Interdisciplinary Information Studies (Applied Computer Science)",
         "institution": "The University of Tokyo",
-        "year": 2022
+        "year": "2020 — 2022"
       },
       {
-        "course": "BSc in Engineering",
+        "course": "B.Eng., Information and Communication Engineering",
         "institution": "The University of Tokyo",
-        "year": 2020
+        "year": "2016 — 2020"
       }
     ],
     "experience": [
       {
-        "title": "Research Intern",
+        "title": "Individual Researcher",
+        "company": "JST ACT-X Acceleration Phase",
+        "company_url": "https://researchmap.jp/hirotakahiraki/research_projects",
+        "company_logo": "jst",
+        "date_start": "2026-04",
+        "description": "Development of a wearable voice input/output interface for enhancing face-to-face vocalization"
+      },
+      {
+        "title": "Research Scholar (Internship)",
         "company": "Paul G. Allen School of Computer Science & Engineering, University of Washington",
         "company_url": "https://www.cs.washington.edu/",
         "company_logo": "W-Logo_Purple_vector",
         "location": "Seattle, WA, USA",
-        "date_start": "2025-12-01",
-        "description": "Research Intern at Paul G. Allen School of Computer Science & Engineering"
+        "date_start": "2025-12"
       },
       {
-        "title": "Research Project Leader",
+        "title": "Individual Researcher",
         "company": "JST ACT-X",
-        "company_url": "https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html",
+        "company_url": "https://projectdb.jst.go.jp/grant/JST-PROJECT-23829457/",
         "company_logo": "jst",
         "location": "Tokyo, Japan",
-        "date_start": "2023-10-01",
-        "description": "JST ACT-X Research Project Leader"
+        "date_start": "2023-10",
+        "description": "Development of a wearable voice input/output interface for enhancing face-to-face vocalization",
+        "date_end": "2026-03"
       },
       {
         "title": "Research Assistant",
@@ -42,8 +50,9 @@
         "company_url": "https://unit.aist.go.jp/harc/en/index.html",
         "company_logo": "aist",
         "location": "Chiba, Japan",
-        "date_start": "2021-04-01",
-        "description": "Research Assistant at Organization of Human Augmentation Research Center"
+        "date_start": "2022-04",
+        "description": "Human Augmentation Research Center",
+        "date_end": "2025-03"
       },
       {
         "title": "Creator",
@@ -51,8 +60,8 @@
         "company_url": "https://www.ipa.go.jp/english/humandev/third.html",
         "company_logo": "mitou",
         "location": "Tokyo, Japan",
-        "date_start": "2021-07-01",
-        "date_end": "2022-03-10",
+        "date_start": "2021-07",
+        "date_end": "2022-03",
         "description": "Software Engineer, Hardware Engineer, and Designer"
       },
       {
@@ -61,8 +70,8 @@
         "company_url": "https://www.yoshidumi.com/",
         "company_logo": "yoshidumi",
         "location": "Tokyo, Japan",
-        "date_start": "2017-08-01",
-        "date_end": "2021-09-30",
+        "date_start": "2017-08",
+        "date_end": "2021-09",
         "description": "Backend Engineer and Web Writer"
       }
     ],
@@ -100,7 +109,7 @@
         "year": "2024"
       },
       {
-        "title": "The University of Tokyo, GSII, Major Award, Best Master's Thesis",
+        "title": "The University of Tokyo, GSII, Head of Department Award and Best Master’s Thesis Award",
         "year": "2022"
       },
       {
@@ -120,10 +129,6 @@
         "year": "2021"
       },
       {
-        "title": "The University of Tokyo PhD Fellowship",
-        "year": "2021"
-      },
-      {
         "title": "Best Presentation Award at Silent Speech Recognition Workshop (Domestic Workshop)",
         "year": "2021"
       },
@@ -135,43 +140,77 @@
         "title": "The University of Tokyo Hongo Tech Garage Spring Founder Program",
         "year": "2021"
       }
+    ],
+    "support": [
+      {
+        "period": "2026 — 2027",
+        "title": "JST ACT-X Acceleration Phase"
+      },
+      {
+        "period": "2025 — 2026",
+        "title": "Tobitate! Study Abroad JAPAN, New Japan Representative Program (Innovator Course)"
+      },
+      {
+        "period": "2025 — 2026",
+        "title": "Tateisi Science and Technology Foundation, International Exchange Grant (second round)"
+      },
+      {
+        "period": "2023 — 2026",
+        "title": "JST ACT-X"
+      },
+      {
+        "period": "2022 — 2026",
+        "title": "The University of Tokyo, International Graduate Program of Innovation for Intelligent World"
+      },
+      {
+        "period": "2021 — 2022",
+        "title": "IPA MITOU Program"
+      }
     ]
   },
   "ja": {
     "education": [
       {
-        "course": "学際情報学府 学際情報学専攻 総合分析情報学府コース 博士課程",
+        "course": "学際情報学府 総合分析情報学コース 博士課程",
         "institution": "東京大学",
-        "year": "2022 -"
+        "year": "2022 — 現在"
       },
       {
-        "course": "学際情報学府 学際情報学専攻 総合分析情報学府コース 修士課程",
+        "course": "修士（学際情報学）・総合分析情報学コース",
         "institution": "東京大学",
-        "year": 2022
+        "year": "2020 — 2022"
       },
       {
-        "course": "工学部電子情報工学科",
+        "course": "学士（工学）・工学部電子情報工学科",
         "institution": "東京大学",
-        "year": 2020
+        "year": "2016 — 2020"
       }
     ],
     "experience": [
       {
-        "title": "Research Intern",
+        "title": "個人研究者",
+        "company": "JST ACT-X 加速フェーズ",
+        "company_url": "https://researchmap.jp/hirotakahiraki/research_projects",
+        "company_logo": "jst",
+        "date_start": "2026-04",
+        "description": "対面での発声を拡張できるウェアラブルな音声入出力インタフェースの開発"
+      },
+      {
+        "title": "Research Scholar (Internship)",
         "company": "Paul G. Allen School of Computer Science & Engineering, University of Washington",
         "company_url": "https://www.cs.washington.edu/",
         "company_logo": "W-Logo_Purple_vector",
         "location": "Seattle, WA, USA",
-        "date_start": "2025-12-01",
-        "description": "Paul G. Allen School of Computer Science & Engineering リサーチインターン"
+        "date_start": "2025-12"
       },
       {
-        "title": "研究代表",
+        "title": "個人研究者",
         "company": "JST ACT-X",
-        "company_url": "https://www.jst.go.jp/kisoken/act-x/research_area/ongoing/bunya2021-1.html",
+        "company_url": "https://projectdb.jst.go.jp/grant/JST-PROJECT-23829457/",
         "company_logo": "jst",
-        "date_start": "2023-10-01",
-        "description": "JST ACT-X リアル空間を強靭にするハードウェアの未来 研究代表"
+        "date_start": "2023-10",
+        "description": "対面での発声を拡張できるウェアラブルな音声入出力インタフェースの開発",
+        "date_end": "2026-03"
       },
       {
         "title": "リサーチアシスタント",
@@ -179,8 +218,9 @@
         "company_url": "https://unit.aist.go.jp/harc/update.html",
         "company_logo": "aist",
         "location": "千葉",
-        "date_start": "2021-04-01",
-        "description": "産業技術総合研究所人間拡張センター リサーチアシスタント"
+        "date_start": "2022-04",
+        "description": "人間拡張研究センター",
+        "date_end": "2025-03"
       },
       {
         "title": "クリエイター",
@@ -188,8 +228,8 @@
         "company_url": "https://www.ipa.go.jp/jinzai/mitou/2021/seika.html",
         "company_logo": "mitou",
         "location": "Tokyo, Japan",
-        "date_start": "2021-07-01",
-        "date_end": "2022-03-10",
+        "date_start": "2021-07",
+        "date_end": "2022-03",
         "description": "ソフトウェアエンジニア・ハードウェアエンジニア・デザイナー"
       },
       {
@@ -198,8 +238,8 @@
         "company_url": "https://www.yoshidumi.com/",
         "company_logo": "yoshidumi",
         "location": "Tokyo, Japan",
-        "date_start": "2017-08-01",
-        "date_end": "2021-09-30",
+        "date_start": "2017-08",
+        "date_end": "2021-09",
         "description": "バックエンドエンジニア・ウェブライター"
       }
     ],
@@ -229,7 +269,7 @@
         "year": "2024"
       },
       {
-        "title": "GUGEN 2024 Good Idea賞など3件受賞(最多受賞)",
+        "title": "GUGEN 2024 Good Idea賞など3件受賞",
         "year": "2024"
       },
       {
@@ -237,11 +277,11 @@
         "year": "2024"
       },
       {
-        "title": "東京大学学際情報学府 専攻長賞",
+        "title": "東京大学大学院 学際情報学府 専攻長賞・優秀修士論文賞",
         "year": "2022"
       },
       {
-        "title": "グッドデザインニューホープ賞",
+        "title": "Good Design New Hope Award 2022 Honorable Mention",
         "year": "2022"
       },
       {
@@ -257,10 +297,6 @@
         "year": "2021"
       },
       {
-        "title": "東京大学知能社会国際卓越大学院プログラム",
-        "year": "2021"
-      },
-      {
         "title": "第8回サイレント音声認識ワークショップ学生奨励賞",
         "year": "2021"
       },
@@ -271,6 +307,32 @@
       {
         "title": "東京大学本郷テックガレージ Spring Founder Program",
         "year": "2021"
+      }
+    ],
+    "support": [
+      {
+        "period": "2026 — 2027",
+        "title": "JST ACT-X「リアル空間を強靭にするハードウェアの未来」加速フェーズ"
+      },
+      {
+        "period": "2025 — 2026",
+        "title": "トビタテ！留学JAPAN 新・日本代表プログラム（イノベーターコース）"
+      },
+      {
+        "period": "2025 — 2026",
+        "title": "立石科学技術振興財団 後期国際交流助成"
+      },
+      {
+        "period": "2023 — 2026",
+        "title": "JST ACT-X「リアル空間を強靭にするハードウェアの未来」"
+      },
+      {
+        "period": "2022 — 2026",
+        "title": "東京大学 知能社会国際卓越大学院プログラム"
+      },
+      {
+        "period": "2021 — 2022",
+        "title": "IPA 未踏IT人材発掘・育成事業"
       }
     ]
   }

@@ -21,17 +21,22 @@ bundle exec jekyll serve --livereload
 
 | Content | Source |
 | --- | --- |
-| Biography and page introductions | `_pages/en/` and `_pages/ja/` |
+| Profile and page introductions | `_pages/en/` and `_pages/ja/` |
+| News (shared dates, English and Japanese text) | `_data/news.json` |
 | Sidebar identity and links | `_data/authors.json` |
 | Projects and descriptions | `_projects/en/` and `_projects/ja/` |
 | Publications (shared citation format, localized categories) | `_data/publications.json` |
-| Education, experience, awards | `_data/profile.json` |
+| Education, experience, awards, grants and scholarships | `_data/profile.json` |
 | Navigation and interface labels | `_data/navigation.json`, `_data/labels.json` |
 | Personal style refinements | `_sass/_hiraki.scss` |
 | Profile and project images | `images/` |
 | CV (currently June 2024) | `assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf` |
 
-Every translated page includes `translation_en` and `translation_ja`, so the language control opens the corresponding page. Existing `/project/<name>/` and `/ja/project/<name>/` URLs are retained. Research descriptions and publication metadata were migrated from the existing site; current roles and employment end dates should be updated when new information is available.
+Every translated page includes `translation_en` and `translation_ja`, so the language control opens the corresponding page. Existing `/project/<name>/` and `/ja/project/<name>/` URLs are retained.
+
+Add news to `_data/news.json` in newest-first order. Each entry has a unique `id`, a `date` in `YYYY-MM` format, and `en` / `ja` text supporting Markdown links. The Profile shows the first five entries; older entries are available through “Earlier news.” Dates are recorded to the month to match the precision of the source records.
+
+The profile, current roles, and news were updated using the supplied achievement and study-abroad documents and public researchmap records. Editorial source notes are in `docs/profile-sources.md`. Local `.docx` source documents are ignored by Git and excluded from the generated website; keep the public CV in `assets/pdfs/`.
 
 ## Validation and publishing
 
