@@ -1,0 +1,4 @@
+{% assign t = site.data.labels[page.lang] %}{% assign profile = site.data.profile[page.lang] %}
+<section id="support"><h2>{{ t.support }}</h2>
+<dl class="profile-timeline support-list">{% for item in profile.support %}<div><dt>{{ item.period }}</dt><dd>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</dd></div>{% endfor %}</dl>
+</section>
