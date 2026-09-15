@@ -2,7 +2,7 @@
 
 Bilingual researcher website built with [AcademicPages](https://github.com/academicpages/academicpages.github.io) and Jekyll.
 
-This trial lives on `redesign/academicpages`. The original public site remains on `main`; the trial branch does not deploy to GitHub Pages.
+The public site at https://hirotakahiraki.github.io/ is deployed from `main`. The `redesign/academicpages` branch is retained for development and does not deploy to GitHub Pages.
 
 ## Local preview
 
@@ -46,7 +46,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 bundle exec ruby scripts/check_site.rb
 ```
 
-GitHub Actions runs the same checks on the trial branch. Public deployment is restricted to `main`. Nothing is published just by previewing or committing locally.
+GitHub Actions runs the same checks on development branches. A successful build on `main` deploys to GitHub Pages. Nothing is published just by previewing or committing locally.
 
 ## Theme provenance
 

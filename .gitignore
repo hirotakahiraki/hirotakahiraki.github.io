@@ -14,7 +14,7 @@ go.sum
 # AcademicPages / Jekyll
 _site/
 .bundle/
-vendor/
+/vendor/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
