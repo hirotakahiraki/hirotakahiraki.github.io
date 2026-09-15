@@ -21,3 +21,17 @@ vendor/
 
 # Local source documents used to prepare website copy
 *.docx
+2024.3.tex.txt
+
+# Generated document previews and local deliverables
+/tmp/
+/output/
+
+# Local LaTeX editor build products
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+/2026.9.pdf

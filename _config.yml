@@ -95,6 +95,18 @@ include:
 exclude:
 - "*.docx"
 - "**/*.docx"
+- "*.tex"
+- "**/*.tex"
+- "*.tex.txt"
+- "**/*.tex.txt"
+- output
+- "*.aux"
+- "*.fdb_latexmk"
+- "*.fls"
+- "*.log"
+- "*.out"
+- "*.synctex.gz"
+- 2026.9.pdf
 - "*.sublime-project"
 - "*.sublime-workspace"
 - ".asset-cache"

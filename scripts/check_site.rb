@@ -57,7 +57,7 @@ end
 publications = JSON.parse(File.read('_data/publications.json'))
 profiles = JSON.parse(File.read('_data/profile.json'))
 news = JSON.parse(File.read('_data/news.json'))
-errors << 'Source Word documents must not be published' unless root.glob('**/*').none? { |path| path.extname.downcase == '.docx' }
+errors << 'Source Word and LaTeX documents must not be published' unless root.glob('**/*').none? { |path| %w[.docx .tex].include?(path.extname.downcase) || path.basename.to_s.end_with?('.tex.txt') }
 errors << 'News must be ordered newest first' unless news.map { |item| item['date'] } == news.map { |item| item['date'] }.sort.reverse
 %w[en ja].each do |lang|
   prefix = lang == 'ja' ? 'ja/' : ''
