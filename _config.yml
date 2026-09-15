@@ -12,8 +12,10 @@ repository: hirotakahiraki/hirotakahiraki.github.io
 author:
   name: Hirotaka Hiraki
   avatar: profile.jpg
-  bio: Research Scientist · Ph.D.
-  employer: SB Intuitions · HCI team
+  bio: |-
+    Ph.D.
+    HCI · Wearable Speech Interfaces
+  employer: SB Intuitions
   email: hirotakahiraki@gmail.com
   linkedin: hirotakahiraki
   facebook: h1raki

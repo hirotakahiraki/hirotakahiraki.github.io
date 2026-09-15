@@ -43,7 +43,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .author__alternate { margin: 0 0 14px; font-size: .8em; opacity: .7; }
 .author__bio { line-height: 1.7; }
 .author__urls li { padding-bottom: 4px; }
-.author__urls .cv-date { padding: 0 0 10px 26px; font-size: 10px; opacity: .65; }
+.author__urls .author__cv { display: flex; align-items: baseline; gap: .4em; }
+.author__urls .author__cv a { flex: none; }
+.author__urls .cv-date { font-size: 10px; opacity: .65; }
 .page__title { font-size: 1.8em; margin-bottom: 25px; }
 .page__content > p { font-size: .94em; }
 .page__content h2 { margin-top: 2.25em; padding-bottom: .45em; font-size: 1.25em; }
