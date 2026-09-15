@@ -118,6 +118,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
   padding: 15px 0; border-bottom: 1px solid var(--global-border-color); font-size: .85em;
   > span { opacity: .7; font-size: .85em; padding-top: 2px; }
 }
+.award-link { margin-left: .5em; white-space: nowrap; text-decoration: underline; }
 .page__content > .publication-section:first-child > h2 { margin-top: 0; }
 .publication-item {
   display: grid; grid-template-columns: 45px minmax(0, 1fr); gap: 20px;
