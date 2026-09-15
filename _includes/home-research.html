@@ -1,5 +1,5 @@
 {% assign t = site.data.labels[page.lang] %}
-<div class="home-links"><a href="#experience">{{ t.experience }} ↓</a><a href="#awards">{{ t.awards }} ↓</a><a href="{{ '/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf' | relative_url }}">{{ t.cv }} ↗</a></div>
+<div class="home-links"><a href="#experience">{{ t.experience }} ↓</a><a href="#awards">{{ t.awards }} ↓</a><a href="{{ '/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf' | relative_url }}?v={{ site.time | date: '%s' }}">{{ t.cv }} ↗</a></div>
 {% include news.html %}
 <section id="publications"><h2>{{ t.recent }}</h2>
 {% assign recent = site.data.publications[page.lang].peer_reviewed.groups[0].items %}

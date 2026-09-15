@@ -36,7 +36,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
 
-      <li class="author__cv"><a href="{{ author.cv | relative_url }}"><i class="ai ai-cv ai-fw icon-pad-right" aria-hidden="true"></i>{{ site.data.labels[page.lang].cv }}</a><span class="cv-date">{{ site.data.labels[page.lang].cv_note }}</span></li>
+      <li class="author__cv"><a href="{{ author.cv | relative_url }}?v={{ site.time | date: '%s' }}"><i class="ai ai-cv ai-fw icon-pad-right" aria-hidden="true"></i>{{ site.data.labels[page.lang].cv }}</a><span class="cv-date">{{ site.data.labels[page.lang].cv_note }}</span></li>
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.researchmap %}
         <li><a href="{{ author.researchmap }}"><i class="fas fa-fw fa-book-open icon-pad-right" aria-hidden="true"></i>researchmap</a></li>
