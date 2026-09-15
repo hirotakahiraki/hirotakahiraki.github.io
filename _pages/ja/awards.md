@@ -1,6 +1,6 @@
 ---
 {
-  "title": "受賞・採択",
+  "title": "受賞",
   "lang": "ja",
   "locale": "ja-JP",
   "author": "ja",
