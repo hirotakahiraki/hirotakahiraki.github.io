@@ -1,4 +1,5 @@
 {% assign t = site.data.labels[page.lang] %}{% assign profile = site.data.profile[page.lang] %}
+<section id="experience"><h2>{{ t.experience }}</h2>
 <dl class="profile-timeline">
   {% for item in profile.experience %}
     <div>
@@ -7,6 +8,8 @@
     </div>
   {% endfor %}
 </dl>
-<h2>{{ t.education }}</h2><dl class="profile-timeline">{% for item in profile.education %}<div><dt>{{ item.year }}</dt><dd><strong>{{ item.course }}</strong><span>{{ item.institution }}</span>{% include advisors.html advisors=item.advisors %}</dd></div>{% endfor %}</dl>
-<h2 id="support">{{ t.support }}</h2>
+</section>
+<section id="education"><h2>{{ t.education }}</h2><dl class="profile-timeline">{% for item in profile.education %}<div><dt>{{ item.year }}</dt><dd><strong>{{ item.course }}</strong><span>{{ item.institution }}</span>{% include advisors.html advisors=item.advisors %}</dd></div>{% endfor %}</dl></section>
+<section id="support"><h2>{{ t.support }}</h2>
 <dl class="profile-timeline support-list">{% for item in profile.support %}<div><dt>{{ item.period }}</dt><dd>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</dd></div>{% endfor %}</dl>
+</section>

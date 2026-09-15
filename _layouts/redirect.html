@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title | escape }} · Hirotaka Hiraki</title>
+    <link rel="canonical" href="{{ page.redirect.to | escape }}">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect.to | escape }}">
+    <meta name="robots" content="noindex">
+    <script>location.replace({{ page.redirect.to | jsonify }});</script>
+  </head>
+  <body>
+    <p><a href="{{ page.redirect.to | escape }}">{% if page.lang == 'ja' %}プロフィールの{{ page.title }}へ移動{% else %}View {{ page.title }} in Profile{% endif %}</a></p>
+  </body>
+</html>

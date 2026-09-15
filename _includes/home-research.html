@@ -1,5 +1,5 @@
 {% assign t = site.data.labels[page.lang] %}
-<div class="home-links"><a href="{% if page.lang == 'ja' %}{{ '/ja/experience/' | relative_url }}{% else %}{{ '/experience/' | relative_url }}{% endif %}">{{ t.experience }} ↗</a><a href="{{ '/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf' | relative_url }}">{{ t.cv }} ↗</a></div>
+<div class="home-links"><a href="#experience">{{ t.experience }} ↓</a><a href="#awards">{{ t.awards }} ↓</a><a href="{{ '/assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf' | relative_url }}">{{ t.cv }} ↗</a></div>
 {% include news.html %}
 <section id="publications"><h2>{{ t.recent }}</h2>
 {% assign recent = site.data.publications[page.lang].peer_reviewed.groups[0].items %}
@@ -7,4 +7,6 @@
 <p class="section-more"><a href="{% if page.lang == 'ja' %}{{ '/ja/publications/' | relative_url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}">{{ t.all_publications }} ↗</a></p></section>
 <section id="projects"><h2>{{ t.projects }}</h2>{% include projects.html %}</section>
 {% include media.html %}
+{% include experience.html %}
+<section id="awards"><h2>{{ t.awards }}</h2>{% include awards.html %}</section>
 <section id="contact"><h2>{{ t.contact }}</h2><p>{% if page.lang == 'ja' %}研究についてのご質問や共同研究のご相談は、メールにてお気軽にご連絡ください。{% else %}For questions about my research or potential collaborations, please get in touch by email.{% endif %}</p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></section>

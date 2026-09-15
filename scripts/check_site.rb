@@ -61,7 +61,7 @@ errors << 'Source Word documents must not be published' unless root.glob('**/*')
 errors << 'News must be ordered newest first' unless news.map { |item| item['date'] } == news.map { |item| item['date'] }.sort.reverse
 %w[en ja].each do |lang|
   prefix = lang == 'ja' ? 'ja/' : ''
-  %w[index.html projects/index.html publications/index.html experience/index.html awards/index.html].each do |route|
+  %w[index.html projects/index.html publications/index.html].each do |route|
     path = root.join(prefix + route)
     document = documents[path]
     if document.nil?
@@ -74,14 +74,23 @@ errors << 'News must be ordered newest first' unless news.map { |item| item['dat
   archive = documents[root.join(prefix + 'publications/index.html')]
   expected = publications[lang].values.sum { |section| section['groups'].sum { |group| group['items'].size } }
   errors << "#{lang}: publication count differs from source (#{expected})" unless archive&.css('[data-publication]')&.size == expected
-  awards = documents[root.join(prefix + 'awards/index.html')]
-  errors << "#{lang}: awards missing" unless awards&.css('.award-list > li')&.size == profiles[lang]['awards'].size
   home = documents[root.join(prefix + 'index.html')]
+  errors << "#{lang}: awards missing from profile" unless home&.css('#awards .award-list > li')&.size == profiles[lang]['awards'].size
+  %w[experience education support].each do |section|
+    errors << "#{lang}: #{section} missing from profile" unless home&.css("##{section} .profile-timeline > div")&.size == profiles[lang][section].size
+  end
+  expected_navigation = ["/#{prefix}", "/#{prefix}publications/", "/#{prefix}projects/"]
+  navigation = home&.css('#site-nav .masthead__menu-item:not(.masthead__menu-item--lg) a')&.map { |link| link['href'] }
+  errors << "#{lang}: navigation must contain Profile, Publications, and Projects" unless navigation == expected_navigation
+  %w[experience awards].each do |section|
+    redirect = documents[root.join(prefix + "#{section}/index.html")]
+    destination = URI.parse(redirect&.at_css('meta[http-equiv="refresh"]')&.[]('content').to_s.delete_prefix('0; url='))
+    errors << "#{lang}: #{section} must redirect to its profile section" unless destination.path == "/#{prefix}" && destination.fragment == section
+    errors << "#{lang}: #{section} redirect has incorrect language" unless redirect&.at_css('html')&.[]('lang') == lang
+  end
   entries = home&.css('#news [data-news]')
   errors << "#{lang}: news missing or out of order" unless entries&.map { |entry| entry['data-news'] } == news.map { |item| item['id'] }
   errors << "#{lang}: news translation missing" if news.any? { |item| item[lang].to_s.strip.empty? }
-  experience = documents[root.join(prefix + 'experience/index.html')]
-  errors << "#{lang}: research support missing" unless experience&.css('.support-list > div')&.size == profiles[lang]['support'].size
   %w[whispermask emask epose silentmask yura].each do |slug|
     project = documents[root.join(prefix + "project/#{slug}/index.html")]
     unless project && project.at_css('meta[property="og:image"]')&.[]('content')&.include?("projects/#{slug}.jpg")

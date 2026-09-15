@@ -5,10 +5,6 @@
   "locale": "en-US",
   "author": "en",
   "permalink": "/experience/",
-  "translation_en": "/experience/",
-  "translation_ja": "/ja/experience/",
-  "description": "Hirotaka Hiraki / 平城裕隆 — Human–Computer Interaction, wearable devices, and speech interfaces."
+  "redirect_to": "/#experience"
 }
 ---
-
-{% include experience.html %}
