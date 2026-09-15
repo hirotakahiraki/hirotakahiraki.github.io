@@ -31,7 +31,7 @@ bundle exec jekyll serve --livereload
 | Navigation and interface labels | `_data/navigation.json`, `_data/labels.json` |
 | Personal style refinements | `_sass/_hiraki.scss` |
 | Profile and project images | `images/` |
-| CV (currently June 2024) | `assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf` |
+| CV (September 2026) | `assets/pdfs/Curriculum_Vitae_hirotakahiraki.pdf` |
 
 Every translated page includes `translation_en` and `translation_ja`, so the language control opens the corresponding page. Existing `/project/<name>/` and `/ja/project/<name>/` URLs are retained.
 
@@ -53,3 +53,7 @@ GitHub Actions runs the same checks on the trial branch. Public deployment is re
 The actual AcademicPages templates, Sass, JavaScript, icons, and fonts were imported from upstream commit `c77da751a8124450d5fb818056c0cf081fea08e1` (September 15, 2026). This is a Jekyll migration, with small additions for bilingual navigation, project cards, news, and media coverage. Publications are displayed directly by category. The Hugo implementation was removed from the trial branch.
 
 Upstream license: `licenses/AcademicPages-MIT.txt`.
+
+### Overleaf CV
+
+`2026.9.overleaf.tex` uses the original ModernCV classic format and pdfLaTeX. Upload it with `images/profile.jpg` renamed to `profile1.jpg`; set the main document to the uploaded TeX file and use TeX Live 2025. It contains the September 2026 CV, including UW under Education and links without separate URL labels. The portable source is independent of Jekyll and Python.
